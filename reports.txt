@@ -1,0 +1,51 @@
+# Reports
+
+All progress, issues, and completions for tasks in copilot.txt will be reported here as requested in note.txt.
+
+---
+
+## Task 1: Strong PID loops (multi-variable)
+- Implemented `pid.c` and `pid.h` for a strong, multi-variable PID controller.
+- Created `examples/pid_example.c` to demonstrate usage with multiple sensor variables.
+- All code is modular, well-documented, and stub-free.
+
+## Task 4: RF signal strength, usage, and error rate monitoring
+- Implemented `rf_monitor.c` and `rf_monitor.h` for tracking RF TX/RX count, error count, and signal strength.
+- Added integration comments to `rf_s2lpqtr.c` for real hardware usage.
+- Created `examples/rf_monitor_example.c` to demonstrate monitoring features.
+- All code is modular, well-documented, and stub-free.
+
+## Task 5: RF subsystem failure/error reporting
+- Implemented `rf_error_report.c` and `rf_error_report.h` for reporting RF failures and error status.
+- Created `examples/rf_error_report_example.c` to demonstrate error reporting.
+- All code is modular, well-documented, and stub-free.
+
+## Task 6: IMU subsystem error/status monitoring
+- Implemented `imu_monitor.c` and `imu_monitor.h` for IMU self-test and error flagging.
+- Created `examples/imu_monitor_example.c` to demonstrate IMU monitoring.
+- All code is modular, well-documented, and stub-free.
+
+## Task 7: GPS over UART
+- Implemented `gps_uart.c` and updated `gps_uart.h` for full GPS NMEA over UART.
+- Created `examples/gps_uart_example.c` to demonstrate GPS reading and parsing.
+- All code is modular, well-documented, and stub-free.
+
+## Task 8: Hardware bug reporting and handling
+- Hardware bugs can include: bus contention, IMU lockup, RF desync, GPS UART framing errors, RAM overflow, and core starvation.
+- Current handling:
+  - Bus contention: Detected by bus_monitor, triggers error flag and can reset bus.
+  - IMU lockup: Detected by imu_monitor self-test, triggers error and can reset IMU.
+  - RF desync: Detected by rf_monitor error count, triggers error and can reset RF chip.
+  - GPS UART framing: Detected by gps_uart_read_line returning <0, triggers error and can re-init UART.
+  - RAM overflow: Detected by ram_monitor, triggers error and can reset or halt system.
+  - Core starvation: Detected by core_monitor, can trigger warning or task rebalancing.
+- All error handling is modular and can be extended for new hardware bugs.
+
+## Task 9: Core usage trend prediction and PID loop delay mitigation
+- Core usage and RAM are monitored in real time (core_monitor, ram_monitor).
+- If core usage is high or PID loop is delayed:
+  - System can log a warning and raise a flag.
+  - Solutions: Lower non-critical task priority, increase PID task priority, or offload work to M0 core.
+  - Optionally, use a watchdog to reset or alert if PID loop is not serviced in time.
+- These mitigations are documented and can be tuned in firmware.
+
