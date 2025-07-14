@@ -1,17 +1,8 @@
-1. strong pid loops that take into account as many variables as possible
-2. monitoring of spi and i2c bus usage
-3. monitoring the usage of the different cores and ram
-4. contorl over signal stregnth and usage, and ideally error rate detection and reporting
-5. report the failures in rf susbsyestems possible, especially in error reporting management and usage of stubs 
-6. repeat for the IMU susbsystem 
-7. implement gps over uart in its entirity
-8. report any possible hardware bugs, how they can be handled and how they are currentyly being handled 
-9. observe and predict core usage trends and any cases where the task list may cuase too much delay until the pid loop sare processed, and add an solutions to mitigate this risk to reports
-10. add a new set of firmwares for a well made base station using the same hardware connected to a pc and create a easyto use forn t end ui for its real time control
-11. add support for using a contorller to use a s a dorne controller i nthe ui and add flight insturmenation panels ot the ui as well ofr the abs estation
-12. add a method to create waypoints, perhaps inheritnig code from ardupilot, allowibng the drone to use gps to steer itself to a alocation. 
-13. add examples for all functionalities, along wsith some real-world usage examples. 
-14. add method s to chekc all data rates, fifo settings and so on are supported by hardwasre via reference ot datasheets
-15. add hardware impelementatiopn changes via a hardware todo list
-16. Lower non-critical task priority, increase PID task priority, or offload work to M0 core.
-17. move all watchdogs for current state detection, task priority and so on to M0 core. 
+add opportunities to communicate with external modules via UART and a asimpleified structure for their fucnitoniung
+error handling to be imporved- when an error is thrown, the chnage made previously should dbe reversed and so on, source based error removal in-spi_bus_write
+functions and phsycal test routines for software calibrations, especially kalman filters and pid loops
+central storage of the pid and kalman loop variables within the Flash
+implementation of true 9-dof kalman filters
+control over signal stregnth and usage, and ideally error rate detection and reporting via the fornt end ui
+making the ui more user friendly and video-game esque
+a list of suggestions on where i couldve done better lmao
