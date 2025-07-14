@@ -28,23 +28,31 @@
 #include "comms.h"
 #include "frontend_cli.h"
 #include "mission.h"
+
 #include "logging.h"
 #include "cli.h"
+#include "init.h"
 
-int main(void) {
-    // Initialize board and peripherals
-    board_init();
-    pin_init();
+#include "FreeRTOS.h"
+#include "task.h"
+
+
+static void MainTask(void *pvParameters) {
+    (void)pvParameters;
     drivers_init();
     middleware_init();
     app_init();
-
-    // Start RTOS scheduler (if used)
-    // vTaskStartScheduler();
-
-    // Main loop (if baremetal)
     while (1) {
         app_main_loop();
     }
+}
+
+int main(void) {
+    board_init();
+    pin_init();
+    log_info("Starting FreeRTOS...");
+    xTaskCreate(MainTask, "MainTask", 1024, NULL, 1, NULL);
+    vTaskStartScheduler();
+    while (1) {}
     return 0;
 }

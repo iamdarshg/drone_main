@@ -1,0 +1,22 @@
+# Add FreeRTOS and LPCOpen to your project.
+#
+# 1. Download FreeRTOS kernel from https://github.com/FreeRTOS/FreeRTOS-Kernel
+#    Place it in firmware/FreeRTOS-Kernel
+# 2. Download LPCOpen for LPC43xx from NXP (or https://github.com/majbthrd/LPCOpen)
+#    Place it in firmware/LPCOpen
+# 3. Add the following to your CMakeLists.txt:
+#
+# add_subdirectory(FreeRTOS-Kernel)
+# add_subdirectory(LPCOpen)
+#
+# target_link_libraries(App PUBLIC FreeRTOS-Kernel LPCOpen)
+#
+# 4. Update include paths in your IDE to include:
+#    - firmware/FreeRTOS-Kernel/include
+#    - firmware/FreeRTOS-Kernel/portable/[compiler]/ARM_CM4F
+#    - firmware/LPCOpen/chip_43xx
+#    - firmware/LPCOpen/board_43xx
+#
+# 5. Configure FreeRTOSConfig.h for your MCU and application.
+#
+# 6. See README.md for more details.
