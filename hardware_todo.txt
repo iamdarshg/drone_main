@@ -1,0 +1,9 @@
+# Hardware Implementation TODO List
+
+- Review all IMU ODR and FIFO settings against latest datasheets; update supported values as needed.
+- Validate S2-LPQTR RF hardware configuration and error handling in real-world tests.
+- Confirm GPS UART baud and framing with actual GPS module.
+- Test all bus monitoring and error reporting on real hardware.
+- Add hardware-in-the-loop tests for all critical safety features (watchdog, self-test, error flags).
+- Document any hardware-specific quirks or errata found during bring-up.
+- Update firmware and documentation as hardware changes are made.

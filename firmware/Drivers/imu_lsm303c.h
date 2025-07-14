@@ -1,6 +1,7 @@
 #ifndef IMU_LSM303C_H
 #define IMU_LSM303C_H
 #include <stdint.h>
+#include <stdbool.h>
 
 // Register addresses (LSM303C/LSM303AHTR)
 #define LSM303C_I2C_ADDRESS 0x1E
@@ -27,5 +28,11 @@
 void imu_lsm303c_init(void);
 int imu_lsm303c_read(float *accel, float *mag, float *temp);
 int imu_lsm303c_selftest(float *result);
+void imu_lsm303c_set_accel_odr(uint8_t odr);
+void imu_lsm303c_set_mag_odr(uint8_t odr);
+void imu_lsm303c_set_fifo_mode(uint8_t mode);
+bool imu_lsm303c_is_accel_odr_supported(uint8_t odr);
+bool imu_lsm303c_is_mag_odr_supported(uint8_t odr);
+bool imu_lsm303c_is_fifo_mode_supported(uint8_t mode);
 
 #endif

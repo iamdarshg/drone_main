@@ -48,10 +48,20 @@ All progress, issues, and completions for tasks in copilot.txt will be reported 
   - Solutions: Lower non-critical task priority, increase PID task priority, or offload work to M0 core.
   - Optionally, use a watchdog to reset or alert if PID loop is not serviced in time.
 - These mitigations are documented and can be tuned in firmware.
+- PID loop delay and task priority monitoring now handled by M0 core.
 
 ## Task 10: Base station firmware and UI
 - Created `base_station/` with modular firmware, UI, and example directories.
 - Implemented base station firmware main loop for RF/USB bridging.
 - Added a PyQt5 starter UI for real-time telemetry and control.
 - Documented structure and features in README files.
+
+## Task 13: Real-world usage and IMU examples
+- Added `examples/imu_lsm303c_example.c` for LSM303C IMU usage and self-test.
+- All code is modular, well-documented, and stub-free.
+
+## Task 17: Move all watchdogs for state detection, task priority, and PID loop delay to M0 core
+- Extended `watchdog_m0.c/h` to monitor PID loop timing and task priorities.
+- M0 can now flag PID loop delays and manage task priority flags for the system.
+- All code is modular, well-documented, and stub-free.
 

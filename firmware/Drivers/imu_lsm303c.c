@@ -82,3 +82,22 @@ int imu_lsm303c_selftest(float *result) {
     *result = ok ? 1.0f : 0.0f;
     return ok ? 0 : -1;
 }
+
+void imu_lsm303c_set_accel_odr(uint8_t odr) {
+    // ODR bits are [7:4] in CTRL_REG1_A
+    uint8_t reg = lsm303c_read_reg(LSM303C_CTRL_REG1_A);
+    reg = (reg & 0x0F) | ((odr & 0x0F) << 4);
+    lsm303c_write_reg(LSM303C_CTRL_REG1_A, reg);
+}
+void imu_lsm303c_set_mag_odr(uint8_t odr) {
+    // ODR bits are [3:2] in CTRL_REG1_M
+    uint8_t reg = lsm303c_read_reg(LSM303C_CTRL_REG1_M);
+    reg = (reg & 0xF3) | ((odr & 0x03) << 2);
+    lsm303c_write_reg(LSM303C_CTRL_REG1_M, reg);
+}
+void imu_lsm303c_set_fifo_mode(uint8_t mode) {
+    // FIFO mode in CTRL_REG5_M [6:5]
+    uint8_t reg = lsm303c_read_reg(LSM303C_CTRL_REG5_M);
+    reg = (reg & 0x9F) | ((mode & 0x03) << 5);
+    lsm303c_write_reg(LSM303C_CTRL_REG5_M, reg);
+}

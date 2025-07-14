@@ -11,3 +11,7 @@
 11. add support for using a contorller to use a s a dorne controller i nthe ui and add flight insturmenation panels ot the ui as well ofr the abs estation
 12. add a method to create waypoints, perhaps inheritnig code from ardupilot, allowibng the drone to use gps to steer itself to a alocation. 
 13. add examples for all functionalities, along wsith some real-world usage examples. 
+14. add method s to chekc all data rates, fifo settings and so on are supported by hardwasre via reference ot datasheets
+15. add hardware impelementatiopn changes via a hardware todo list
+16. Lower non-critical task priority, increase PID task priority, or offload work to M0 core.
+17. move all watchdogs for current state detection, task priority and so on to M0 core. 
