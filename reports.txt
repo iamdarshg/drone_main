@@ -49,3 +49,9 @@ All progress, issues, and completions for tasks in copilot.txt will be reported 
   - Optionally, use a watchdog to reset or alert if PID loop is not serviced in time.
 - These mitigations are documented and can be tuned in firmware.
 
+## Task 10: Base station firmware and UI
+- Created `base_station/` with modular firmware, UI, and example directories.
+- Implemented base station firmware main loop for RF/USB bridging.
+- Added a PyQt5 starter UI for real-time telemetry and control.
+- Documented structure and features in README files.
+
