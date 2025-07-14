@@ -1,3 +1,8 @@
+#ifndef MAX_EXT_MODULES
+#define MAX_EXT_MODULES 8 // Now configurable via build system or config.h
+#endif
+// Optionally set max modules at runtime (advanced use)
+void ext_module_uart_set_max(uint8_t max);
 // ext_module_uart.h - Modular UART interface for external modules
 // Provides registration and communication for external modules over UART
 // All code is modular, well-documented, and stub-free

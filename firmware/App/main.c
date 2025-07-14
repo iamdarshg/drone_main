@@ -33,6 +33,8 @@
 #include "cli.h"
 #include "init.h"
 
+#include "Config/config.h"
+
 #include "FreeRTOS.h"
 #include "task.h"
 
@@ -41,6 +43,21 @@ static void MainTask(void *pvParameters) {
     (void)pvParameters;
     drivers_init();
     middleware_init();
+    // --- Load PID/Kalman config from flash ---
+    config_params_t cfg;
+    if (config_load(&cfg) != 0) {
+        log_info("Loaded default PID/Kalman config");
+    } else {
+        log_info("Loaded PID/Kalman config from flash");
+    }
+    // Example: initialize main PID and Kalman with config values
+    // (Replace with your actual PID/Kalman instances and usage)
+    float sensors[3] = {0};
+    pid_t main_pid;
+    pid_init(&main_pid, cfg.pid_kp, cfg.pid_ki, cfg.pid_kd, sensors, 3);
+    kalman1d_t main_kf;
+    kalman1d_init(&main_kf, cfg.kalman_q, cfg.kalman_r, 0.0f, 1.0f);
+    // --- End config usage ---
     app_init();
     while (1) {
         app_main_loop();

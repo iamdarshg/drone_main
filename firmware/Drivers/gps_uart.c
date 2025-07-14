@@ -4,8 +4,12 @@
 #include <string.h>
 #include "ext_uart.h"
 
-#define GPS_UART_PORT 2
-#define GPS_UART_BAUD 9600
+#ifndef GPS_UART_PORT
+#define GPS_UART_PORT 2 // Now configurable via build system or config.h
+#endif
+#ifndef GPS_UART_BAUD
+#define GPS_UART_BAUD 9600 // Now configurable via build system or config.h
+#endif
 
 static char gps_rx_buffer[128];
 

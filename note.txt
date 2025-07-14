@@ -1,4 +1,9 @@
-any task can be split into sub-tasks, 
+any task can be split into sub-tasks, ask any questions in questions.txt, look for responses there as well
 stubs are to be entirely unused by the time the tasks are compelted. use as much time and resources as needed. 
-tasks lie in compilot.txt and report anything requested to reports.txt. only add a task to done.txt if all its subtaslks are compeleted in their enirity and nothing is left be done, i.e. all stubs are removed, it is well documented and all functionality poossible is added. keep doing tasks and create observe.txt when the todo list has run out. 
+tasks lie in copilot.txt and report anything requested to reports.txt. look for kicad_sch files instead of searching for "schematic"
+only add a task to done.txt if all its subtaslks are compeleted in their enirity and nothing is left be done, i.e. all stubs are removed, it is well documented and all functionality poossible is added.
+keep doing tasks and make sure that they are actually implemented in hardware. refer to datasheets and schematics in hardware folder and ask fro any information unavbailable.
 tasks may take as much time as needed, and as many retrials as needed but should be made to the leevl of comp-eletion as seen iin porofessionally-held embedded codebases like ardupilot. 
+dont be lazy. if sopmehting cant be added dont add it. dont create stubs. report things that need to be added but arent. dont add stubs or dummies with real values.
+note that most of this is running on an embedded lpc4330 chip and connot easily be accessed by the user so make the code nasa-level error proof, do some researcha, observe their practices and myabe implement some of them as well.
+if one is out of tsks, double check the pinout in shcematics and bom and implement them into the code. add any functionality that may be useful, expecially error handling. Also, do all TODOs in teh codebase.

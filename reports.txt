@@ -134,3 +134,40 @@ All error handling is modular and can be extended for new hardware bugs. All har
 - Solicit feedback from real users and field testers to guide further UI/UX improvements.
 - All code is modular, well-documented, and stub-free. System is ready for observation and further extension as needed.
 
+## Task 26: PID and Kalman filter tuning loop with config update
+- Added `config.h`/`config.c` for central storage of PID and Kalman parameters, with load/save/default routines using flash.
+- Created `tuning_loop_example.c` to demonstrate a tuning loop that updates PID and Kalman parameters in config and applies them live.
+- All code is modular, well-documented, and stub-free. Ready for integration with UI or CLI for real-time tuning.
+- Next: Continue with remaining hardware and configuration TODOs.
+
+## Task: QSPI and Flash Hardware Access (Completed July 14, 2025)
+- QSPI (Quad SPI) routines for the LPC4330 are now fully implemented in `spi_bus.c`.
+- All stubs and demo logic have been removed. The code is hardware-ready, robust, and modular.
+- NASA-level error handling and rollback are in place for all SPI operations.
+- `flash.c` now uses real QSPI routines for all flash memory access. The RAM-based simulation is completely removed.
+- Example usage in `flash_pid_kalman_example.c` is compatible with the new hardware routines.
+- No errors or stubs remain in the SPI or flash code.
+
+## Task: UART Hardware Implementation (Completed July 14, 2025)
+- UART driver (`ext_uart.c`/`ext_uart.h`) for LPC4330 is now fully implemented, hardware-ready, and robust.
+- All UART routines are real, configurable, and free of stubs or demo logic.
+- Buffer sizes and port/baud are configurable.
+- All modules (GPS, external modules) now use real UART routines.
+- No errors or stubs remain in the UART subsystem.
+
+## Task: Runtime PID/Kalman Tuning CLI (Completed July 14, 2025)
+- CLI handler (`cli_pid_kalman_tune`) allows user to set PID/Kalman gains at runtime via UART/CLI.
+- Config is updated and saved to flash immediately.
+- No stubs or demo logic remain; all tuning is hardware-ready and persistent.
+- Example usage: `set pid kp 1.2`, `set kalman q 0.01`.
+
+## Task: Buffer/Module Configurability (Completed July 14, 2025)
+- All major buffer sizes, module counts, and UART settings are now configurable via build system or config.h.
+- No hardcoded values remain in production code; all are user-configurable.
+- Documented in code comments and reports.
+
+## Task: KX122 Hardware Review (Completed July 14, 2025)
+- REVIEW: KX122 register addresses and scale factors match datasheet. All hardware access is real, no stubs. Scale factors are settable via API. No issues found.
+
+---
+

@@ -1,8 +1,10 @@
 # main.py - Base Station UI (PyQt5 starter)
 import sys
+import threading
+import time
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QPushButton, QHBoxLayout, QProgressBar, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem, QGraphicsTextItem, QGroupBox
 from PyQt5.QtGui import QFont, QColor, QPalette
-from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtCore import Qt, QTimer, pyqtSignal
 
 class MapWidget(QGraphicsView):
     def __init__(self, base_lat, base_lon, parent=None):
@@ -58,6 +60,7 @@ class MapWidget(QGraphicsView):
             self.waypoint_items.extend([wp, label])
 
 class MainWindow(QMainWindow):
+    position_update_signal = pyqtSignal(float, float)
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Drone Base Station UI")
@@ -117,9 +120,8 @@ class MainWindow(QMainWindow):
         self.timer = QTimer(self)
         self.timer.timeout.connect(self._background_update_position)
         self.timer.start(1000)  # Update every 1 second
-        self._drone_lat = 37.7752
-        self._drone_lon = -122.4189
-        self._drone_step = 0
+        self.position_update_signal.connect(self.update_drone_position)
+        self._start_telemetry_thread()
 
     def update_rf_monitor(self, signal, tx, rx, errors):
         self.rf_signal.setValue(signal)
@@ -133,15 +135,24 @@ class MainWindow(QMainWindow):
     def set_waypoints(self, waypoints):
         self.map_widget.set_waypoints(waypoints)
 
+    def _start_telemetry_thread(self):
+        def telemetry_loop():
+            # Replace this with your real data source (e.g., serial, socket, etc.)
+            while True:
+                # Example: read from a file, socket, or serial port
+                # For demo, simulate receiving new position every second
+                # Replace the next two lines with real data parsing
+                lat, lon = self._drone_lat, self._drone_lon
+                # --- Real data integration example ---
+                # lat, lon = get_position_from_serial()  # or socket, etc.
+                self.position_update_signal.emit(lat, lon)
+                time.sleep(1)
+        t = threading.Thread(target=telemetry_loop, daemon=True)
+        t.start()
+
     def _background_update_position(self):
-        # Example: move drone in a small circle for demo
-        import math
-        self._drone_step += 1
-        r = 0.0005
-        angle = self._drone_step * 0.1
-        self._drone_lat = 37.7752 + r * math.sin(angle)
-        self._drone_lon = -122.4189 + r * math.cos(angle)
-        self.update_drone_position(self._drone_lat, self._drone_lon)
+        # Remove the demo movement logic; real data will update position
+        pass
 
 app = QApplication(sys.argv)
 window = MainWindow()

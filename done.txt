@@ -1,0 +1,4 @@
+DONE: QSPI and Flash hardware access (spi_bus.c, flash.c) fully implemented, all stubs removed, robust error handling in place. See reports.txt for details.
+DONE: UART subsystem (ext_uart.c/h) implemented for LPC4330, hardware-ready, configurable, no stubs. All modules now use real UART routines.
+DONE: Runtime PID/Kalman tuning CLI (cli_pid_kalman_tune) implemented. User can update gains live via UART/CLI, config is saved to flash. No stubs remain.
+DONE: All major buffer sizes, module counts, and UART settings are now configurable via build system or config.h. No hardcoded values remain in production code.

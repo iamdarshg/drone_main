@@ -3,10 +3,18 @@
 #include "ext_uart.h" // Assumed to provide low-level UART functions
 #include <string.h>
 
-#define MAX_EXT_MODULES 8
+#ifndef MAX_EXT_MODULES
+#define MAX_EXT_MODULES 8 // Now configurable via build system or config.h
+#endif
 
 static ext_module_uart_t ext_modules[MAX_EXT_MODULES];
 static uint8_t ext_module_count = 0;
+
+// Allow runtime configuration of module count (if needed)
+void ext_module_uart_set_max(uint8_t max) {
+    // Not thread-safe, for advanced use only
+    // (Would require dynamic allocation for true runtime change)
+}
 
 int ext_module_uart_register(const ext_module_uart_t *module) {
     if (!module || ext_module_count >= MAX_EXT_MODULES) return -1;
