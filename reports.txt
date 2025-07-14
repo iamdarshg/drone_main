@@ -32,14 +32,15 @@ All progress, issues, and completions for tasks in copilot.txt will be reported 
 
 ## Task 8: Hardware bug reporting and handling
 - Hardware bugs can include: bus contention, IMU lockup, RF desync, GPS UART framing errors, RAM overflow, and core starvation.
-- Current handling:
-  - Bus contention: Detected by bus_monitor, triggers error flag and can reset bus.
-  - IMU lockup: Detected by imu_monitor self-test, triggers error and can reset IMU.
-  - RF desync: Detected by rf_monitor error count, triggers error and can reset RF chip.
-  - GPS UART framing: Detected by gps_uart_read_line returning <0, triggers error and can re-init UART.
-  - RAM overflow: Detected by ram_monitor, triggers error and can reset or halt system.
-  - Core starvation: Detected by core_monitor, can trigger warning or task rebalancing.
-- All error handling is modular and can be extended for new hardware bugs.
+  - All hardware error checks (bus, IMU, RF, GPS, RAM) are now performed by the M0 core via `m0_check_all_hardware()` in `watchdog_m0.c`.
+  - Error flags are set by the M0 and can be queried by the M4 for system response and mitigation.
+  - Bus contention: Detected by bus_monitor on M0, triggers error flag and can reset bus.
+  - IMU lockup: Detected by imu_monitor self-test on M0, triggers error and can reset IMU.
+  - RF desync: Detected by rf_monitor error count on M0, triggers error and can reset RF chip.
+  - GPS UART framing: Detected by gps_uart_read_line on M0, triggers error and can re-init UART.
+  - RAM overflow: Detected by ram_monitor on M0, triggers error and can reset or halt system.
+  - Core starvation: Detected by core_monitor on M0, can trigger warning or task rebalancing.
+All error handling is modular and can be extended for new hardware bugs. All hardware error checks and monitoring are now performed by the M0 core. The M4 core queries status and responds to flags set by the M0 as needed.
 
 ## Task 9: Core usage trend prediction and PID loop delay mitigation
 - Core usage and RAM are monitored in real time (core_monitor, ram_monitor).
@@ -59,6 +60,19 @@ All progress, issues, and completions for tasks in copilot.txt will be reported 
 ## Task 13: Real-world usage and IMU examples
 - Added `examples/imu_lsm303c_example.c` for LSM303C IMU usage and self-test.
 - All code is modular, well-documented, and stub-free.
+
+## Task 14: Hardware support checks for all data rates, FIFO settings, etc.
+- Implemented hardware support check functions for LSM303C ODR/FIFO in `imu_lsm303c_support.c` and header.
+- Created `examples/imu_lsm303c_support_example.c` and `imu_lsm303c_all_features_example.c` to demonstrate and verify hardware support.
+- All IMU configuration functions now check against datasheet-supported values. Hardware support checks are now performed by the M0 core where possible.
+
+## Task 15: Hardware implementation changes via hardware TODO list
+- Created and maintain `hardware_todo.txt` to track all pending and required hardware implementation and validation tasks.
+- All hardware-specific changes, validation, and bring-up steps are documented and tracked in this file.
+
+## Task 16: Task priority management and PID offload
+- Solutions for lowering non-critical task priority, increasing PID task priority, and offloading work to the M0 core are implemented and documented in firmware and `reports.txt`.
+- M0 core now handles PID loop delay and task priority monitoring, with flags and APIs for the M4 core to respond as needed. All monitoring and error detection for task priority and PID loop timing is performed by the M0 core.
 
 ## Task 17: Move all watchdogs for state detection, task priority, and PID loop delay to M0 core
 - Extended `watchdog_m0.c/h` to monitor PID loop timing and task priorities.

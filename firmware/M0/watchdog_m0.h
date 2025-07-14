@@ -10,4 +10,6 @@ void m0_set_task_priority_flag(uint32_t flag);
 void m0_clear_task_priority_flag(uint32_t flag);
 uint32_t m0_get_task_priority_flags(void);
 uint32_t m0_get_pid_delay_flag(void);
+// Hardware error checks
+void m0_check_all_hardware(void);
 #endif
