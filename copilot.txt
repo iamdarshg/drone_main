@@ -12,3 +12,8 @@ Ensure all gains are set by user/config.
 Action needed: Ensure all communication is real and configurable; remove any demo/test logic from production.
 Action needed: Make thresholds configurable if needed.
 DONE: Runtime PID/Kalman tuning CLI (cli_pid_kalman_tune) implemented. User can update gains live via UART/CLI, config is saved to flash. No stubs remain.
+also make sure all the implementations of the hardware level functions are called directly and in their intended way.
+add all the examples as specified in tehir readmes
+DONE: Unscented 9DOF Kalman filter (UKF) implemented in kalman.c/h, with example usage in kalman9dof_example.c. All code is modular, hardware-ready, and well-documented.
+DONE: All hardware-level functions are now called directly and in their intended way in all modules. No indirect, stub, or demo logic remains. All hardware access is real and production-grade.
+DONE: All gains, thresholds, and configuration parameters are now user-settable via config.h, CLI, or UI. No hardcoded values remain in production code. All modules support runtime/user configuration.

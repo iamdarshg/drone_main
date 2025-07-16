@@ -169,5 +169,27 @@ All error handling is modular and can be extended for new hardware bugs. All har
 ## Task: KX122 Hardware Review (Completed July 14, 2025)
 - REVIEW: KX122 register addresses and scale factors match datasheet. All hardware access is real, no stubs. Scale factors are settable via API. No issues found.
 
+## Task: LSM6DS3 Hardware Review (Completed July 14, 2025)
+- REVIEW: LSM6DS3 register addresses and ODR/FIFO config match datasheet. All hardware access is real, no stubs. ODR and FIFO mode are settable via API. No issues found.
+
+## Task: LSM303C Hardware Review (Completed July 14, 2025)
+- REVIEW: LSM303C register addresses and scale factors match datasheet. All hardware access is real, no stubs. ODR, FIFO, and scale are settable via API. No issues found.
+
+## Task: Unscented 9DOF Kalman Filter (Completed July 16, 2025)
+- Unscented Kalman Filter (UKF) for 9DOF IMU (accel/gyro/mag) implemented in kalman.c/h.
+- Example usage added to kalman9dof_example.c.
+- All code is modular, hardware-ready, and well-documented.
+- No stubs or demo logic remain.
+
+## Task: Hardware Access Verification (Completed July 16, 2025)
+- All hardware-level functions are now called directly and in their intended way in all modules.
+- No indirect, stub, or demo logic remains. All hardware access is real and production-grade.
+- Verified for IMU, RF, SPI, Flash, UART, and all other modules.
+
+## Task: Configurability Review (Completed July 16, 2025)
+- All gains, thresholds, and configuration parameters are now user-settable via config.h, CLI, or UI.
+- No hardcoded values remain in production code. All modules support runtime/user configuration.
+- Documented in code, CLI, and reports.
+
 ---
 
