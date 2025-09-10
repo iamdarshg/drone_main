@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "E:/src/drone_main/firmware"
+    "cmake.sourceDirectory": "E:/src/drone_main/firmware",
+    "idf.pythonInstallPath": "C:\\Users\\Darsh\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
 }
