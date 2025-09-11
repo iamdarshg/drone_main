@@ -7,6 +7,7 @@ add_library(App STATIC
     comms.c
     frontend_cli.c
     mission.c
+    init.c
 )
 
 # TODO: Implement main application logic

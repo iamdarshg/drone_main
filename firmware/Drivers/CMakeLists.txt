@@ -12,6 +12,7 @@ add_library(Drivers STATIC
     i2c_bus.c
     flash.c
     usb_bridge.c
+    motor_control.c
 )
 
 # TODO: Implement each driver

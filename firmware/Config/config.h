@@ -10,6 +10,29 @@ typedef struct {
     float pid_kd;
     float kalman_q;
     float kalman_r;
+    
+    // Flight controller config
+    float roll_kp;
+    float roll_ki;
+    float roll_kd;
+    float pitch_kp;
+    float pitch_ki;
+    float pitch_kd;
+    float yaw_kp;
+    float yaw_ki;
+    float yaw_kd;
+    float max_angle;
+    float max_rate;
+    
+    // Motor config
+    uint16_t motor_min_pwm;
+    uint16_t motor_max_pwm;
+    uint16_t motor_idle_pwm;
+    
+    // Telemetry config
+    uint16_t telemetry_rate_hz;
+    int telemetry_enable_attitude;
+    int telemetry_enable_motors;
 } config_params_t;
 
 // Load config from flash (or other storage)

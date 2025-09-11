@@ -8,6 +8,10 @@ add_library(Middleware STATIC
     bus_monitor.c
     core_monitor.c
     error_handling.c
+    attitude_estimator.c
+    telemetry.c
+    command_processor.c
+    safety_monitor.c
 )
 
 # TODO: Implement algorithms and monitoring
