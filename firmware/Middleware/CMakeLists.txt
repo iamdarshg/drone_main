@@ -12,6 +12,7 @@ add_library(Middleware STATIC
     telemetry.c
     command_processor.c
     safety_monitor.c
+    safety_system.c
 )
 
 # TODO: Implement algorithms and monitoring
