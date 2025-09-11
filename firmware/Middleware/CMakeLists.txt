@@ -13,6 +13,7 @@ add_library(Middleware STATIC
     command_processor.c
     safety_monitor.c
     safety_system.c
+    spi_interface.c
 )
 
 # TODO: Implement algorithms and monitoring
