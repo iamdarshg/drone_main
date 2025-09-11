@@ -10,8 +10,6 @@
 #include <unistd.h>
 
 // Host build stub
-int main(int argc, char *argv[]);
-
 void startup_init(void) {
     printf("Drone firmware starting (HOST BUILD)\n");
 }
@@ -20,27 +18,6 @@ void startup_init(void) {
 void host_signal_handler(int sig) {
     printf("Received signal %d, shutting down...\n", sig);
     exit(0);
-}
-
-// Host main function
-int main(int argc, char *argv[]) {
-    (void)argc;
-    (void)argv;
-    
-    printf("=== Drone Firmware Host Test Build ===\n");
-    printf("This is a simulation build for testing on host\n");
-    
-    // Register signal handlers
-    signal(SIGINT, host_signal_handler);
-    signal(SIGTERM, host_signal_handler);
-    
-    startup_init();
-    
-    // Call the main application entry point
-    extern void application_main(void);
-    application_main();
-    
-    return 0;
 }
 
 #else

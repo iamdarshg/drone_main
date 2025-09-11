@@ -73,3 +73,9 @@ int main(void) {
     while (1) {}
     return 0;
 }
+
+// Application entry point used by startup.Reset_Handler on embedded
+void application_main(void) {
+    // For embedded, simply call main which sets up tasks
+    main();
+}
