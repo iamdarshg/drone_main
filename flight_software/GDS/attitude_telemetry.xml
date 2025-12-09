@@ -1,0 +1,54 @@
+<telemetry>
+  <channel
+    id="300"
+    name="ATTITUDE_Q1"
+    type="F32"
+    format_string="%.4f"
+    low_red="-1.1"
+    low_orange="-1.05"
+    low_yellow="-1.0"
+    high_yellow="1.0"
+    high_orange="1.05"
+    high_red="1.1"
+    description="Attitude quaternion component 1"
+  />
+  <channel
+    id="301"
+    name="ATTITUDE_Q2"
+    type="F32"
+    format_string="%.4f"
+    low_red="-1.1"
+    low_orange="-1.05"
+    low_yellow="-1.0"
+    high_yellow="1.0"
+    high_orange="1.05"
+    high_red="1.1"
+    description="Attitude quaternion component 2"
+  />
+  <channel
+    id="302"
+    name="ATTITUDE_Q3"
+    type="F32"
+    format_string="%.4f"
+    low_red="-1.1"
+    low_orange="-1.05"
+    low_yellow="-1.0"
+    high_yellow="1.0"
+    high_orange="1.05"
+    high_red="1.1"
+    description="Attitude quaternion component 3"
+  />
+  <channel
+    id="303"
+    name="ATTITUDE_Q4"
+    type="F32"
+    format_string="%.4f"
+    low_red="-1.1"
+    low_orange="-1.05"
+    low_yellow="-1.0"
+    high_yellow="1.0"
+    high_orange="1.05"
+    high_red="1.1"
+    description="Attitude quaternion component 4"
+  />
+</telemetry>

@@ -1,0 +1,50 @@
+{
+  "name": "Flight Telemetry",
+  "layout": {
+    "type": "grid",
+    "rows": 3,
+    "columns": 2,
+    "cells": [
+      {
+        "bounds": { "row": 0, "column": 0, "rowspan": 1, "colspan": 2 },
+        "type": "plot",
+        "title": "IMU - Accelerometer",
+        "series": [
+          { "name": "IMU_ACCEL_X", "source": "IMU_ACCEL_X" },
+          { "name": "IMU_ACCEL_Y", "source": "IMU_ACCEL_Y" },
+          { "name": "IMU_ACCEL_Z", "source": "IMU_ACCEL_Z" }
+        ]
+      },
+      {
+        "bounds": { "row": 1, "column": 0, "rowspan": 1, "colspan": 2 },
+        "type": "plot",
+        "title": "IMU - Gyroscope",
+        "series": [
+          { "name": "IMU_GYRO_X", "source": "IMU_GYRO_X" },
+          { "name": "IMU_GYRO_Y", "source": "IMU_GYRO_Y" },
+          { "name": "IMU_GYRO_Z", "source": "IMU_GYRO_Z" }
+        ]
+      },
+      {
+        "bounds": { "row": 2, "column": 0, "rowspan": 1, "colspan": 1 },
+        "type": "plot",
+        "title": "Barometer",
+        "series": [
+          { "name": "BARO_PRESSURE", "source": "BARO_PRESSURE" },
+          { "name": "BARO_TEMP", "source": "BARO_TEMP" }
+        ]
+      },
+      {
+        "bounds": { "row": 2, "column": 1, "rowspan": 1, "colspan": 1 },
+        "type": "plot",
+        "title": "Attitude",
+        "series": [
+          { "name": "ATTITUDE_Q1", "source": "ATTITUDE_Q1" },
+          { "name": "ATTITUDE_Q2", "source": "ATTITUDE_Q2" },
+          { "name": "ATTITUDE_Q3", "source": "ATTITUDE_Q3" },
+          { "name": "ATTITUDE_Q4", "source": "ATTITUDE_Q4" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+<telemetry>
+  <channel
+    id="200"
+    name="BARO_PRESSURE"
+    type="F32"
+    format_string="%.4f"
+    low_red="0"
+    low_orange="100"
+    low_yellow="200"
+    high_yellow="1100"
+    high_orange="1200"
+    high_red="1300"
+    description="Barometer pressure data"
+  />
+  <channel
+    id="201"
+    name="BARO_TEMP"
+    type="F32"
+    format_string="%.2f"
+    low_red="-40"
+    low_orange="-20"
+    low_yellow="0"
+    high_yellow="85"
+    high_orange="100"
+    high_red="125"
+    description="Barometer temperature data"
+  />
+</telemetry>

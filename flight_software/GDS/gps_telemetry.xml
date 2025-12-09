@@ -1,0 +1,30 @@
+<telemetry>
+  <channel
+    id="500"
+    name="GPS_LATITUDE"
+    type="F64"
+    format_string="%.6f"
+    description="GPS latitude"
+  />
+  <channel
+    id="501"
+    name="GPS_LONGITUDE"
+    type="F64"
+    format_string="%.6f"
+    description="GPS longitude"
+  />
+  <channel
+    id="502"
+    name="GPS_ALTITUDE"
+    type="F32"
+    format_string="%.2f"
+    description="GPS altitude"
+  />
+  <channel
+    id="503"
+    name="GPS_SATELLITES"
+    type="U8"
+    format_string="%d"
+    description="Number of GPS satellites"
+  />
+</telemetry>

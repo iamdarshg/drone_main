@@ -1,0 +1,12 @@
+<commands>
+  <command
+    mnemonic="PYRO_FIRE"
+    opcode="401"
+    description="Fire a pyro channel"
+  >
+    <args>
+      <arg name="channel" type="U32" description="The pyro channel to fire"/>
+      <arg name="duration" type="U32" description="The duration of the firing in milliseconds"/>
+    </args>
+  </command>
+</commands>

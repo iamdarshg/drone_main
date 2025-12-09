@@ -1,0 +1,23 @@
+<commands>
+  <command
+    mnemonic="NAV_ADD_WAYPOINT"
+    opcode="402"
+    description="Add a waypoint"
+  >
+    <args>
+      <arg name="latitude" type="F64" description="Waypoint latitude"/>
+      <arg name="longitude" type="F64" description="Waypoint longitude"/>
+      <arg name="altitude" type="F32" description="Waypoint altitude"/>
+    </args>
+  </command>
+  <command
+    mnemonic="NAV_CLEAR_WAYPOINTS"
+    opcode="403"
+    description="Clear all waypoints"
+  />
+  <command
+    mnemonic="NAV_LIST_WAYPOINTS"
+    opcode="404"
+    description="List all waypoints"
+  />
+</commands>

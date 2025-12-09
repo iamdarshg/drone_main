@@ -1,0 +1,13 @@
+<commands>
+  <command
+    mnemonic="PID_SET_GAINS"
+    opcode="400"
+    description="Set the PID gains"
+  >
+    <args>
+      <arg name="P" type="F32" description="Proportional gain"/>
+      <arg name="I" type="F32" description="Integral gain"/>
+      <arg name="D" type="F32" description="Derivative gain"/>
+    </args>
+  </command>
+</commands>
