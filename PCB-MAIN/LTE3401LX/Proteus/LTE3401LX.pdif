@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LTE3401LX"
+   (description "RF Amplifier SiGe:C Low Noise Amplifier MMIC with bypass switch for LTE")
+   (family "ANA")
+   (package "LTE3401LX")
+   (attribute "Datasheet Link" "https://www.nxp.com/docs/en/data-sheet/LTE3401L.pdf")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Manufacturer_Name" "NXP")
+   (attribute "Manufacturer_Part_Number" "LTE3401LX")
+   (attribute "Mouser Part Number" "771-LTE3401LX")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/LTE3401LX?qs=1mbolxNpo8fJSRXbPxE%2Frw%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "LTE3401LX")
+    (pin "GND_1" 1 PS)
+    (pin "VCC" 2 PS)
+    (pin "RF_OUT" 3 PS)
+    (pin "GND_2" 4 PS)
+    (pin "RF_IN" 5 PS)
+    (pin "CTRL" 6 PS)
+   )
+  )
+  (symbol "LTE3401LX"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LTE3401LX"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.35 0.55)
+      (pt 0.35 0.55)
+      (pt 0.35 -0.55)
+      (pt -0.35 -0.55)
+      (pt -0.35 0.55))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.35 1.55)
+      (pt 1.35 1.55)
+      (pt 1.35 -1.55)
+      (pt -1.35 -1.55)
+      (pt -1.35 1.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.4)
+      (arc (pt -0.800 0.400) (pt -0.900 0.350) (pt -0.800 0.450) (start -180.0) (sweep .0))
+      (pt -0.9 0.4)
+      (arc (pt -0.900 0.400) (pt -0.900 0.350) (pt -0.800 0.450) (start -180.0) (sweep 180.0))
+      (pt -0.8 0.4))))
+   (leg 1 (pt -0.200 0.400) (padstack 0))
+   (leg 2 (pt -0.200 -0.000) (padstack 0))
+   (leg 3 (pt -0.200 -0.400) (padstack 0))
+   (leg 4 (pt 0.200 -0.400) (padstack 0))
+   (leg 5 (pt 0.200 -0.000) (padstack 0))
+   (leg 6 (pt 0.200 0.400) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 0.250))
+   )
+   (model "LTE3401LX.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ICP-10111"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-30-10:18:53)
+    (mountForm default
+        (footprintRef "ICP10111")
+        (spec "System")
+    )
+)

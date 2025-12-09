@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=LTE3401LX
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2024-03-15 07:32:44
+Downloaded=2025-11-12 17:39:16
+3D=Y

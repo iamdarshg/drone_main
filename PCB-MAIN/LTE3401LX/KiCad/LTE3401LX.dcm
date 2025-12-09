@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTE3401LX
+D RF Amplifier SiGe:C Low Noise Amplifier MMIC with bypass switch for LTE
+K
+F https://www.nxp.com/docs/en/data-sheet/LTE3401L.pdf
+$ENDCMP
+#
+#End Doc Library

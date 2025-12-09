@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCV7344AD10R2G
+D Compliant with ISO 118982:2016; CAN FD timing specified up to 5 Mbps; VIO pin on NCV73443 Version Allowing Direct Interfacing with 3 V to 5 V Microcontrollers; Very Low Current Standby Mode with Wakeup via the Bus; Low Electromagnetic Emission (EME) and High Electromagnetic Immunity; Very Low EME without Commonmode (CM) Choke; No Disturbance of the Bus Lines with an Unpowered Node; Transmit Data (TxD) Dominant Timeout Function; Under All Supply Conditions the Chip Behaves Predictably; Very High ESD Rob
+K
+F https://www.onsemi.com/pub/Collateral/NCV7344-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/18946054/1818841/2.50/66/3/Connector/-->
+<UPFs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0" Authorizer="Altair" Date="11-11-25">
+  <Upf>
+    <PartGeneral>
+      <Unit>MM</Unit>
+      <Manufacturer>Molex</Manufacturer>
+      <ManufacturerPartName>216700-0609</ManufacturerPartName>
+      <CompanyPartName>
+        <Name>216700-0609</Name>
+      </CompanyPartName>
+      <Preference>
+        <TempCompanyPartName />
+        <Status>Qualified</Status>
+      </Preference>
+      <ProductFamily>
+        <ProductFamily>Connector</ProductFamily>
+        <ProductFamily>Other</ProductFamily>
+      </ProductFamily>
+      <FunctionalType>Connector</FunctionalType>
+      <PackageType>Connector</PackageType>
+      <Layout>
+        <UNamePrefix>J</UNamePrefix>
+      </Layout>
+      <NumberOfPins>66</NumberOfPins>
+      <History>
+        <Version MajorVersion="1" MinorVersion="4" />
+        <Date>
+          <Created>17-02-24-07:02:04</Created>
+        </Date>
+      </History>
+      <Comments>
+      </Comments>
+      <ReferenceURL>
+        <Reference Item="Data Sheet">
+          <Value>"https://www.molex.com/en-us/products/part-detail/2167000609"</Value>
+        </Reference>
+        <Reference Item="Application Notes">
+          <Value></Value>
+        </Reference>
+        <Reference Item="Device Model">
+          <Value></Value>
+        </Reference>
+        <Reference Item="BSDL">
+          <Value></Value>
+        </Reference>
+      </ReferenceURL>
+    </PartGeneral>
+    <Layers>
+      <Layer ArtworkLayerNo="1" Name="Top Signal" EcadLayerName="" Visible="ON" Depth="996" FilmType="-1" Comment="Top Signal" Direction="-1">
+        <LayerColor R="193" G="243" B="107" />
+      </Layer>
+      <Layer ArtworkLayerNo="2" Name="Top Pad" EcadLayerName="" Visible="ON" Depth="995" FilmType="-1" Comment="Top Pad" Direction="-1">
+        <LayerColor R="255" G="191" B="102" />
+      </Layer>
+      <Layer ArtworkLayerNo="3" Name="Solder Resist Top" EcadLayerName="" Visible="ON" Depth="994" FilmType="-1" Comment="Solder Resist Top" Direction="-1">
+        <LayerColor R="202" G="247" B="253" />
+      </Layer>
+      <Layer ArtworkLayerNo="4" Name="Silkscreen Top" EcadLayerName="" Visible="ON" Depth="998" FilmType="-1" Comment="Silkscreen Top" Direction="-1">
+        <LayerColor R="255" G="244" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="5" Name="Silk Text Top" EcadLayerName="" Visible="ON" Depth="999" FilmType="-1" Comment="Silk Text Top" Direction="-1">
+        <LayerColor R="255" G="222" B="244" />
+      </Layer>
+      <Layer ArtworkLayerNo="6" Name="Metal Mask Top" EcadLayerName="" Visible="ON" Depth="993" FilmType="-1" Comment="Metal Mask Top" Direction="-1">
+        <LayerColor R="202" G="147" B="153" />
+      </Layer>
+      <Layer ArtworkLayerNo="7" Name="Paste Mask Top" EcadLayerName="" Visible="ON" Depth="992" FilmType="-1" Comment="Paste Mask Top" Direction="-1">
+        <LayerColor R="202" G="39" B="253" />
+      </Layer>
+      <Layer ArtworkLayerNo="8" Name="Assembly Top" EcadLayerName="" Visible="ON" Depth="991" FilmType="-1" Comment="Assembly Top" Direction="-1">
+        <LayerColor R="202" G="222" B="114" />
+      </Layer>
+      <Layer ArtworkLayerNo="9" Name="Place Boundary Top" EcadLayerName="" Visible="OFF" Depth="990" FilmType="-1" Comment="Place Boundary Top 1" Direction="-1">
+        <LayerColor R="151" G="222" B="159" />
+      </Layer>
+      <Layer ArtworkLayerNo="10" Name="Place Boundary Top 2" EcadLayerName="" Visible="OFF" Depth="989" FilmType="-1" Comment="Place Boundary Top 2" Direction="-1">
+        <LayerColor R="141" G="222" B="149" />
+      </Layer>
+      <Layer ArtworkLayerNo="11" Name="Place Boundary Top 3" EcadLayerName="" Visible="OFF" Depth="988" FilmType="-1" Comment="Place Boundary Top 3" Direction="-1">
+        <LayerColor R="131" G="222" B="139" />
+      </Layer>
+      <Layer ArtworkLayerNo="12" Name="Via Keep Out Top" EcadLayerName="" Visible="OFF" Depth="987" FilmType="-1" Comment="Via Keep Out Top" Direction="-1">
+        <LayerColor R="160" G="212" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="13" Name="Trace Keep Out Top" EcadLayerName="" Visible="OFF" Depth="986" FilmType="-1" Comment="Trace Keep Out Top" Direction="-1">
+        <LayerColor R="160" G="202" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="14" Name="Via Keep In Top" EcadLayerName="" Visible="OFF" Depth="985" FilmType="-1" Comment="Via Keep In Top" Direction="-1">
+        <LayerColor R="160" G="192" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="15" Name="Trace Keep In Top" EcadLayerName="" Visible="OFF" Depth="984" FilmType="-1" Comment="Trace Keep In Top" Direction="-1">
+        <LayerColor R="160" G="182" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="16" Name="Component Outline Top" EcadLayerName="" Visible="OFF" Depth="997" FilmType="-1" Comment="Component Outline Top" Direction="-1">
+        <LayerColor R="187" G="164" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="17" Name="Component Keep-out Top" EcadLayerName="" Visible="OFF" Depth="985" FilmType="-1" Comment="Via Keep In Top" Direction="-1">
+        <LayerColor R="160" G="192" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="18" Name="Component Keep-in Top" EcadLayerName="" Visible="OFF" Depth="984" FilmType="-1" Comment="Trace Keep In Top" Direction="-1">
+        <LayerColor R="160" G="182" B="131" />
+      </Layer>
+      <Layer ArtworkLayerNo="301" Name="Bottom Signal" EcadLayerName="" Visible="ON" Depth="296" FilmType="-1" Comment="Bottom Signal" Direction="-1">
+        <LayerColor R="0" G="121" B="61" />
+      </Layer>
+      <Layer ArtworkLayerNo="302" Name="Bottom Pad" EcadLayerName="" Visible="ON" Depth="295" FilmType="-1" Comment="Bottom Pad" Direction="-1">
+        <LayerColor R="252" G="215" B="165" />
+      </Layer>
+      <Layer ArtworkLayerNo="303" Name="Solder Resist Bottom" EcadLayerName="" Visible="ON" Depth="294" FilmType="-1" Comment="Solder Resist Bottom" Direction="-1">
+        <LayerColor R="154" G="185" B="190" />
+      </Layer>
+      <Layer ArtworkLayerNo="304" Name="Silkscreen Bottom" EcadLayerName="" Visible="ON" Depth="298" FilmType="-1" Comment="Silkscreen Bottom" Direction="-1">
+        <LayerColor R="255" G="216" B="210" />
+      </Layer>
+      <Layer ArtworkLayerNo="305" Name="Silk Text Bottom" EcadLayerName="" Visible="ON" Depth="299" FilmType="-1" Comment="Silk Text Bottom" Direction="-1">
+        <LayerColor R="171" G="238" B="207" />
+      </Layer>
+      <Layer ArtworkLayerNo="306" Name="Metal Mask Bottom" EcadLayerName="" Visible="ON" Depth="293" FilmType="-1" Comment="Metal Mask Bottom" Direction="-1">
+        <LayerColor R="181" G="104" B="112" />
+      </Layer>
+      <Layer ArtworkLayerNo="307" Name="Paste Mask Bottom" EcadLayerName="" Visible="ON" Depth="292" FilmType="-1" Comment="Paste Mask Bottom" Direction="-1">
+        <LayerColor R="181" G="94" B="112" />
+      </Layer>
+      <Layer ArtworkLayerNo="308" Name="Assembly Bottom" EcadLayerName="" Visible="ON" Depth="291" FilmType="-1" Comment="Assembly Bottom" Direction="-1">
+        <LayerColor R="222" G="207" B="171" />
+      </Layer>
+      <Layer ArtworkLayerNo="309" Name="Place Boundary Bottom" EcadLayerName="" Visible="OFF" Depth="290" FilmType="-1" Comment="Place Boundary Bottom 1" Direction="-1">
+        <LayerColor R="124" G="202" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="310" Name="Place Boundary Bottom 2" EcadLayerName="" Visible="OFF" Depth="289" FilmType="-1" Comment="Place Boundary Bottom 2" Direction="-1">
+        <LayerColor R="114" G="202" B="212" />
+      </Layer>
+      <Layer ArtworkLayerNo="311" Name="Place Boundary Bottom 3" EcadLayerName="" Visible="OFF" Depth="288" FilmType="-1" Comment="Place Boundary Bottom 3" Direction="-1">
+        <LayerColor R="104" G="202" B="202" />
+      </Layer>
+      <Layer ArtworkLayerNo="312" Name="Via Keep Out Bottom" EcadLayerName="" Visible="OFF" Depth="287" FilmType="-1" Comment="Via Keep Out Bottom" Direction="-1">
+        <LayerColor R="58" G="151" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="313" Name="Trace Keep Out Bottom" EcadLayerName="" Visible="OFF" Depth="286" FilmType="-1" Comment="Trace Keep Out Bottom" Direction="-1">
+        <LayerColor R="58" G="141" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="314" Name="Via Keep In Bottom" EcadLayerName="" Visible="OFF" Depth="285" FilmType="-1" Comment="Via Keep In Bottom" Direction="-1">
+        <LayerColor R="58" G="131" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="315" Name="Trace Keep In Bottom" EcadLayerName="" Visible="OFF" Depth="284" FilmType="-1" Comment="Trace Keep In Bottom" Direction="-1">
+        <LayerColor R="58" G="121" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="316" Name="Component Outline Bottom" EcadLayerName="" Visible="OFF" Depth="297" FilmType="-1" Comment="Component Outline Bottom" Direction="-1">
+        <LayerColor R="248" G="57" B="57" />
+      </Layer>
+      <Layer ArtworkLayerNo="317" Name="Component Keepout Bottom" EcadLayerName="" Visible="OFF" Depth="285" FilmType="-1" Comment="Via Keep In Bottom" Direction="-1">
+        <LayerColor R="58" G="131" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="318" Name="Component Keepin Bottom" EcadLayerName="" Visible="OFF" Depth="284" FilmType="-1" Comment="Trace Keep In Bottom" Direction="-1">
+        <LayerColor R="58" G="121" B="222" />
+      </Layer>
+      <Layer ArtworkLayerNo="601" Name="Inner Signal" EcadLayerName="" Visible="ON" Depth="699" FilmType="-1" Comment="Inner Signal" Direction="-1">
+        <LayerColor R="175" G="207" B="253" />
+      </Layer>
+      <Layer ArtworkLayerNo="602" Name="Inner Plane" EcadLayerName="" Visible="ON" Depth="698" FilmType="-1" Comment="Inner Plane" Direction="-1">
+        <LayerColor R="155" G="207" B="253" />
+      </Layer>
+      <Layer ArtworkLayerNo="999" Name="Hole" EcadLayerName="" Visible="ON" Depth="999" FilmType="-1" Comment="Hole" Direction="-1">
+        <LayerColor R="50" G="50" B="50" />
+      </Layer>
+      <Layer ArtworkLayerNo="1001" Name="Package Body" EcadLayerName="" Visible="ON" Depth="1098" FilmType="-1" Comment="Package Body" Direction="-1">
+        <LayerColor R="0" G="255" B="255" />
+      </Layer>
+      <Layer ArtworkLayerNo="1002" Name="Package Lead" EcadLayerName="" Visible="ON" Depth="1097" FilmType="-1" Comment="Package Lead" Direction="-1">
+        <LayerColor R="164" G="164" B="164" />
+      </Layer>
+      <Layer ArtworkLayerNo="1003" Name="Package Text" EcadLayerName="" Visible="ON" Depth="1099" FilmType="-1" Comment="Package Text" Direction="-1">
+        <LayerColor R="94" G="94" B="94" />
+      </Layer>
+      <Layer ArtworkLayerNo="1101" Name="Symbol Body" EcadLayerName="" Visible="ON" Depth="1198" FilmType="-1" Comment="Symbol Body" Direction="-1">
+        <LayerColor R="255" G="255" B="255" />
+      </Layer>
+      <Layer ArtworkLayerNo="1102" Name="Symbol Pin" EcadLayerName="" Visible="ON" Depth="1197" FilmType="-1" Comment="Symbol Pin" Direction="-1">
+        <LayerColor R="164" G="64" B="164" />
+      </Layer>
+      <Layer ArtworkLayerNo="1103" Name="Symbol Text" EcadLayerName="" Visible="ON" Depth="1199" FilmType="-1" Comment="Symbol Text" Direction="-1">
+        <LayerColor R="194" G="94" B="194" />
+      </Layer>
+      <Layer ArtworkLayerNo="1104" Name="Symbol Pin Name" EcadLayerName="" Visible="ON" Depth="1200" FilmType="-1" Comment="Symbol Pin Name" Direction="-1">
+        <LayerColor R="194" G="94" B="194" />
+      </Layer>
+      <Layer ArtworkLayerNo="1105" Name="Symbol Signal Name" EcadLayerName="" Visible="ON" Depth="1201" FilmType="-1" Comment="Symbol Signal Name" Direction="-1">
+        <LayerColor R="194" G="94" B="194" />
+      </Layer>
+      <Layer ArtworkLayerNo="1106" Name="Symbol Reference Designator" EcadLayerName="" Visible="ON" Depth="1202" FilmType="-1" Comment="Symbol Reference Designator" Direction="-1">
+        <LayerColor R="255" G="255" B="255" />
+      </Layer>
+      <Layer ArtworkLayerNo="1107" Name="Symbol Part Name/Value" EcadLayerName="" Visible="ON" Depth="1203" FilmType="-1" Comment="Symbol Part Name/Value" Direction="-1">
+        <LayerColor R="255" G="255" B="255" />
+      </Layer>
+    </Layers>
+    <Electrical>
+      <PinMappingMode Value="false" />
+      <AllMultidieMode Value="false" />
+      <ElectricalPins>
+        <ElectricalPin PinName="1" SignalName="1" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="2" SignalName="2" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="3" SignalName="3" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="4" SignalName="4" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="5" SignalName="5" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="6" SignalName="6" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="7" SignalName="7" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="8" SignalName="8" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="9" SignalName="9" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="10" SignalName="10" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="11" SignalName="11" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="12" SignalName="12" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="13" SignalName="13" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="14" SignalName="14" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="15" SignalName="15" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="16" SignalName="16" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="17" SignalName="17" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="18" SignalName="18" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="19" SignalName="19" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="20" SignalName="20" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="21" SignalName="21" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="22" SignalName="22" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="23" SignalName="23" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="24" SignalName="24" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="25" SignalName="25" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="26" SignalName="26" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="27" SignalName="27" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="28" SignalName="28" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="29" SignalName="29" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="30" SignalName="30" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="31" SignalName="31" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="32" SignalName="32" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="33" SignalName="33" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="34" SignalName="34" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="35" SignalName="35" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="36" SignalName="36" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="37" SignalName="37" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="38" SignalName="38" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="39" SignalName="39" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="40" SignalName="40" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="41" SignalName="41" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="42" SignalName="42" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="43" SignalName="43" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="44" SignalName="44" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="45" SignalName="45" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="46" SignalName="46" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="47" SignalName="47" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="48" SignalName="48" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="49" SignalName="49" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="50" SignalName="50" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="51" SignalName="51" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="52" SignalName="52" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="53" SignalName="53" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="54" SignalName="54" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="55" SignalName="55" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="56" SignalName="56" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="57" SignalName="57" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="58" SignalName="58" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="59" SignalName="59" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="60" SignalName="60" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP1" SignalName="MP1" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP2" SignalName="MP2" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP3" SignalName="MP3" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP4" SignalName="MP4" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP5" SignalName="MP5" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+        <ElectricalPin PinName="MP6" SignalName="MP6" PinType="NONE" PullUpSignalName="" PullDownSignalName="" InverterName="" DeviceModelType="NONE" DeviceModelFileName="NONE" DriverModelName="" ReceiverModelName="" PKGModelType="NONE" PKGPinParasiticModelFileName="" RLCModelName="" R="0" L="0" C="0" StubParasiticModelName="" PortIn="" PortOut="" />
+      </ElectricalPins>
+    </Electrical>
+    <Packages DefaultPackageName="2167000609" BodyMaterialName="Undefined" Weight="0" DefaultPartHeight="-1" DefaultMountHeight="0">
+      <ThermalDefinition MaxPower="0" MinOperatingTemperature="0" MaxOperatingTemperature="0" RadiationEmissivity="0">
+        <ThermalModel>
+          <Simple JunctionToCase="0" JunctionToBoard="0" />
+        </ThermalModel>
+      </ThermalDefinition>
+      <FootprintSpec>
+        <Toe Min="0" Max="0" />
+        <Heel Min="0" Max="0" />
+        <Side Min="0" Max="0" />
+        <MountHeight Min="0" Max="0" />
+      </FootprintSpec>
+      <Package PackageName="2167000609" DefaultFootprintName="2167000609" StepFileName="216700-0609.stp">
+        <BodyGeometry>
+          <BodyShape>
+            <Draw3D xsi:type="D_StepType" StepFilePath="216700-0609.stp">
+              <StepRotation X="0" Y="0" Z="0" />
+              <StepPivot X="0" Y="0" Z="0" />
+              <StepPT X="0" Y="0" Z="0" />
+              <StepColor R="255" G="255" B="255" />
+            </Draw3D>
+          </BodyShape>
+        </BodyGeometry>
+        <PackagePins>
+          <PackagePin PinName="1" LocationX="-5.075" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="2" LocationX="-5.075" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="3" LocationX="-4.725" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="4" LocationX="-4.725" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="5" LocationX="-4.375" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="6" LocationX="-4.375" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="7" LocationX="-4.025" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="8" LocationX="-4.025" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="9" LocationX="-3.675" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="10" LocationX="-3.675" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="11" LocationX="-3.325" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="12" LocationX="-3.325" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="13" LocationX="-2.975" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="14" LocationX="-2.975" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="15" LocationX="-2.625" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="16" LocationX="-2.625" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="17" LocationX="-2.275" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="18" LocationX="-2.275" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="19" LocationX="-1.925" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="20" LocationX="-1.925" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="21" LocationX="-1.575" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="22" LocationX="-1.575" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="23" LocationX="-1.225" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="24" LocationX="-1.225" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="25" LocationX="-0.875" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="26" LocationX="-0.875" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="27" LocationX="-0.525" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="28" LocationX="-0.525" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="29" LocationX="-0.175" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="30" LocationX="-0.175" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="31" LocationX="0.175" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="32" LocationX="0.175" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="33" LocationX="0.525" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="34" LocationX="0.525" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="35" LocationX="0.875" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="36" LocationX="0.875" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="37" LocationX="1.225" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="38" LocationX="1.225" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="39" LocationX="1.575" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="40" LocationX="1.575" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="41" LocationX="1.925" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="42" LocationX="1.925" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="43" LocationX="2.275" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="44" LocationX="2.275" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="45" LocationX="2.625" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="46" LocationX="2.625" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="47" LocationX="2.975" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="48" LocationX="2.975" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="49" LocationX="3.325" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="50" LocationX="3.325" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="51" LocationX="3.675" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="52" LocationX="3.675" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="53" LocationX="4.025" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="54" LocationX="4.025" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="55" LocationX="4.375" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="56" LocationX="4.375" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="57" LocationX="4.725" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="58" LocationX="4.725" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="59" LocationX="5.075" LocationY="-0.887" Rotation="0" />
+          <PackagePin PinName="60" LocationX="5.075" LocationY="0.887" Rotation="0" />
+          <PackagePin PinName="MP1" LocationX="-5.910" LocationY="-0.920" Rotation="90" />
+          <PackagePin PinName="MP2" LocationX="5.910" LocationY="-0.920" Rotation="90" />
+          <PackagePin PinName="MP3" LocationX="5.910" LocationY="0.920" Rotation="90" />
+          <PackagePin PinName="MP4" LocationX="-5.910" LocationY="0.920" Rotation="90" />
+          <PackagePin PinName="MP5" LocationX="-6.445" LocationY="0.000" Rotation="0" />
+          <PackagePin PinName="MP6" LocationX="6.445" LocationY="0.000" Rotation="0" />
+        </PackagePins>
+        <PackageFootprints>
+          <PackageFootprint LibFootprintName="2167000609" />
+        </PackageFootprints>
+      </Package>
+    </Packages>
+    <Manufacturing MountType="Surface Mount" ROHSType="NONE" />
+    <LogicSymbol DefaultSymbolName="216700-0609">
+      <Symbols>
+        <Symbol LibSymbolName="216700-0609" />
+      </Symbols>
+    </LogicSymbol>
+  </Upf>
+  <Fonts>
+    <Font ID="1" CharWidth="1" CharHeight="1" CharSpace="0" LineSpace="0" PenWidth="0.01" WindowFontName="" WindowFontSize="0" />
+  </Fonts>
+  <Pads>
+    <Pad Name="r32.5_18">
+      <Offset X="0" Y="0" />
+      <Draw xsi:type="D_FillRectType" OriginX="0" OriginY="0" Width="0.180" Height="0.325" Rotation="0" />
+    </Pad>
+    <Pad Name="r75_26">
+      <Offset X="0" Y="0" />
+      <Draw xsi:type="D_FillRectType" OriginX="0" OriginY="0" Width="0.260" Height="0.750" Rotation="0" />
+    </Pad>
+    <Pad Name="r104_26">
+      <Offset X="0" Y="0" />
+      <Draw xsi:type="D_FillRectType" OriginX="0" OriginY="0" Width="0.260" Height="1.040" Rotation="0" />
+    </Pad>
+  </Pads>
+  <Padstacks>
+    <Padstack>
+      <PadstackName>sr32.5_18</PadstackName>
+      <Type>None</Type>
+      <Drill ShapeName="" Plating="false" PlateThickness="0" />
+      <Top ConnectedShapeName="r32.5_18" UnConnectedShapeName="r32.5_18" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="r32.5_18" MetalShapeName="r32.5_18" />
+      <InnerSignal ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <InnerPlane ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <Bottom ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="" MetalShapeName="" />
+    </Padstack>
+    <Padstack>
+      <PadstackName>sr75_26</PadstackName>
+      <Type>None</Type>
+      <Drill ShapeName="" Plating="false" PlateThickness="0" />
+      <Top ConnectedShapeName="r75_26" UnConnectedShapeName="r75_26" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="r75_26" MetalShapeName="r75_26" />
+      <InnerSignal ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <InnerPlane ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <Bottom ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="" MetalShapeName="" />
+    </Padstack>
+    <Padstack>
+      <PadstackName>sr104_26</PadstackName>
+      <Type>None</Type>
+      <Drill ShapeName="" Plating="false" PlateThickness="0" />
+      <Top ConnectedShapeName="r104_26" UnConnectedShapeName="r104_26" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="r104_26" MetalShapeName="r104_26" />
+      <InnerSignal ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <InnerPlane ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" />
+      <Bottom ConnectedShapeName="" UnConnectedShapeName="" AntiShapeName="" ThermalShapeName="" TearDrop="false" SolderShapeName="" MetalShapeName="" />
+    </Padstack>
+  </Padstacks>
+  <Footprints>
+    <Footprint>
+      <FootprintName>2167000609</FootprintName>
+      <MoundHeight>0</MoundHeight>
+      <Offset X="0" Y="0" />
+      <RotationOffset>0</RotationOffset>
+      <FootprintPins>
+        <FootprintPin PinNo="1" PinName="1" LibPadstackName="sr32.5_18" LocationX="-5.075" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="2" PinName="2" LibPadstackName="sr32.5_18" LocationX="-5.075" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="3" PinName="3" LibPadstackName="sr32.5_18" LocationX="-4.725" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="4" PinName="4" LibPadstackName="sr32.5_18" LocationX="-4.725" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="5" PinName="5" LibPadstackName="sr32.5_18" LocationX="-4.375" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="6" PinName="6" LibPadstackName="sr32.5_18" LocationX="-4.375" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="7" PinName="7" LibPadstackName="sr32.5_18" LocationX="-4.025" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="8" PinName="8" LibPadstackName="sr32.5_18" LocationX="-4.025" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="9" PinName="9" LibPadstackName="sr32.5_18" LocationX="-3.675" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="10" PinName="10" LibPadstackName="sr32.5_18" LocationX="-3.675" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="11" PinName="11" LibPadstackName="sr32.5_18" LocationX="-3.325" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="12" PinName="12" LibPadstackName="sr32.5_18" LocationX="-3.325" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="13" PinName="13" LibPadstackName="sr32.5_18" LocationX="-2.975" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="14" PinName="14" LibPadstackName="sr32.5_18" LocationX="-2.975" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="15" PinName="15" LibPadstackName="sr32.5_18" LocationX="-2.625" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="16" PinName="16" LibPadstackName="sr32.5_18" LocationX="-2.625" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="17" PinName="17" LibPadstackName="sr32.5_18" LocationX="-2.275" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="18" PinName="18" LibPadstackName="sr32.5_18" LocationX="-2.275" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="19" PinName="19" LibPadstackName="sr32.5_18" LocationX="-1.925" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="20" PinName="20" LibPadstackName="sr32.5_18" LocationX="-1.925" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="21" PinName="21" LibPadstackName="sr32.5_18" LocationX="-1.575" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="22" PinName="22" LibPadstackName="sr32.5_18" LocationX="-1.575" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="23" PinName="23" LibPadstackName="sr32.5_18" LocationX="-1.225" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="24" PinName="24" LibPadstackName="sr32.5_18" LocationX="-1.225" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="25" PinName="25" LibPadstackName="sr32.5_18" LocationX="-0.875" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="26" PinName="26" LibPadstackName="sr32.5_18" LocationX="-0.875" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="27" PinName="27" LibPadstackName="sr32.5_18" LocationX="-0.525" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="28" PinName="28" LibPadstackName="sr32.5_18" LocationX="-0.525" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="29" PinName="29" LibPadstackName="sr32.5_18" LocationX="-0.175" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="30" PinName="30" LibPadstackName="sr32.5_18" LocationX="-0.175" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="31" PinName="31" LibPadstackName="sr32.5_18" LocationX="0.175" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="32" PinName="32" LibPadstackName="sr32.5_18" LocationX="0.175" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="33" PinName="33" LibPadstackName="sr32.5_18" LocationX="0.525" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="34" PinName="34" LibPadstackName="sr32.5_18" LocationX="0.525" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="35" PinName="35" LibPadstackName="sr32.5_18" LocationX="0.875" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="36" PinName="36" LibPadstackName="sr32.5_18" LocationX="0.875" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="37" PinName="37" LibPadstackName="sr32.5_18" LocationX="1.225" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="38" PinName="38" LibPadstackName="sr32.5_18" LocationX="1.225" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="39" PinName="39" LibPadstackName="sr32.5_18" LocationX="1.575" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="40" PinName="40" LibPadstackName="sr32.5_18" LocationX="1.575" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="41" PinName="41" LibPadstackName="sr32.5_18" LocationX="1.925" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="42" PinName="42" LibPadstackName="sr32.5_18" LocationX="1.925" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="43" PinName="43" LibPadstackName="sr32.5_18" LocationX="2.275" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="44" PinName="44" LibPadstackName="sr32.5_18" LocationX="2.275" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="45" PinName="45" LibPadstackName="sr32.5_18" LocationX="2.625" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="46" PinName="46" LibPadstackName="sr32.5_18" LocationX="2.625" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="47" PinName="47" LibPadstackName="sr32.5_18" LocationX="2.975" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="48" PinName="48" LibPadstackName="sr32.5_18" LocationX="2.975" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="49" PinName="49" LibPadstackName="sr32.5_18" LocationX="3.325" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="50" PinName="50" LibPadstackName="sr32.5_18" LocationX="3.325" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="51" PinName="51" LibPadstackName="sr32.5_18" LocationX="3.675" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="52" PinName="52" LibPadstackName="sr32.5_18" LocationX="3.675" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="53" PinName="53" LibPadstackName="sr32.5_18" LocationX="4.025" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="54" PinName="54" LibPadstackName="sr32.5_18" LocationX="4.025" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="55" PinName="55" LibPadstackName="sr32.5_18" LocationX="4.375" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="56" PinName="56" LibPadstackName="sr32.5_18" LocationX="4.375" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="57" PinName="57" LibPadstackName="sr32.5_18" LocationX="4.725" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="58" PinName="58" LibPadstackName="sr32.5_18" LocationX="4.725" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="59" PinName="59" LibPadstackName="sr32.5_18" LocationX="5.075" LocationY="-0.887" Rotation="0" />
+        <FootprintPin PinNo="60" PinName="60" LibPadstackName="sr32.5_18" LocationX="5.075" LocationY="0.887" Rotation="0" />
+        <FootprintPin PinNo="61" PinName="MP1" LibPadstackName="sr75_26" LocationX="-5.910" LocationY="-0.920" Rotation="90" />
+        <FootprintPin PinNo="62" PinName="MP2" LibPadstackName="sr75_26" LocationX="5.910" LocationY="-0.920" Rotation="90" />
+        <FootprintPin PinNo="63" PinName="MP3" LibPadstackName="sr75_26" LocationX="5.910" LocationY="0.920" Rotation="90" />
+        <FootprintPin PinNo="64" PinName="MP4" LibPadstackName="sr75_26" LocationX="-5.910" LocationY="0.920" Rotation="90" />
+        <FootprintPin PinNo="65" PinName="MP5" LibPadstackName="sr104_26" LocationX="-6.445" LocationY="0.000" Rotation="0" />
+        <FootprintPin PinNo="66" PinName="MP6" LibPadstackName="sr104_26" LocationX="6.445" LocationY="0.000" Rotation="0" />
+      </FootprintPins>
+      <CamLayers>
+        <CamLayer ArtworkLayerNo="4">
+          <Draw xsi:type="D_PropertyTextType" AttributeName="[REF_DES]" LibFontID="0" Justify="Middle-Center" Rotation="0" Mirror="NONE" OriginX="0.000" OriginY="0.000" Value="RefDes" Visible="true" />
+          <Draw xsi:type="D_PolylineType">
+            <Draw xsi:type="D_LineType" StartX="-5.075" StartY="-1.500" EndX="-5.075" EndY="-1.500" LineWidth="0.1" />
+            <Draw xsi:type="D_ArcType" StartX="-5.075" StartY="-1.500" EndX="-5.075" EndY="-1.600" CenterX="-5.075" CenterY="-1.55" Radius="0.05" LineWidth="0.09" Direction="CCW" />
+            <Draw xsi:type="D_LineType" StartX="-5.075" StartY="-1.600" EndX="-5.075" EndY="-1.600" LineWidth="0.1" />
+            <Draw xsi:type="D_ArcType" StartX="-5.075" StartY="-1.600" EndX="-5.075" EndY="-1.500" CenterX="-5.075" CenterY="-1.55" Radius="0.05" LineWidth="0.09" Direction="CCW" />
+          </Draw>
+        </CamLayer>
+        <CamLayer ArtworkLayerNo="8">
+          <Draw xsi:type="D_PropertyTextType" AttributeName="[PART_INF]" LibFontID="0" Justify="Middle-Center" Rotation="0" Mirror="NONE" OriginX="0.000" OriginY="0.000" Value="216700-0609" Visible="true" />
+          <Draw xsi:type="D_PolylineType">
+            <Draw xsi:type="D_LineType" StartX="-6.475" StartY="-0.950" EndX="6.475" EndY="-0.950" LineWidth="0.1" />
+            <Draw xsi:type="D_LineType" StartX="6.475" StartY="-0.950" EndX="6.475" EndY="0.950" LineWidth="0.1" />
+            <Draw xsi:type="D_LineType" StartX="6.475" StartY="0.950" EndX="-6.475" EndY="0.950" LineWidth="0.1" />
+            <Draw xsi:type="D_LineType" StartX="-6.475" StartY="0.950" EndX="-6.475" EndY="-0.950" LineWidth="0.1" />
+          </Draw>
+        </CamLayer>
+        <CamLayer ArtworkLayerNo="9">
+          <Draw xsi:type="D_PolygonType">
+            <Boundary>
+              <Draw xsi:type="D_LineType" StartX="-7.575" StartY="2.050" EndX="7.575" EndY="2.050" LineWidth="0.1" />
+              <Draw xsi:type="D_LineType" StartX="7.575" StartY="2.050" EndX="7.575" EndY="-2.050" LineWidth="0.1" />
+              <Draw xsi:type="D_LineType" StartX="7.575" StartY="-2.050" EndX="-7.575" EndY="-2.050" LineWidth="0.1" />
+              <Draw xsi:type="D_LineType" StartX="-7.575" StartY="-2.050" EndX="-7.575" EndY="2.050" LineWidth="0.1" />
+            </Boundary>
+          </Draw>
+        </CamLayer>
+      </CamLayers>
+    </Footprint>
+  </Footprints>
+  <LogicSymbol>
+    <Symbols>
+      <Symbol LibSymbolName="216700-0609">
+        <Partition PartitionName="1">
+          <LibPartition LibPartition="" Partition="1" />
+          <PartitionPins>
+            <PartitionPin PinNo="1" PinName="1" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="0" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="1" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="1" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="2" PinName="2" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-2.54" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="2" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="2" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="3" PinName="3" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-5.08" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="3" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="3" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="4" PinName="4" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-7.62" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="4" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="4" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="5" PinName="5" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-10.16" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="5" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="5" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="6" PinName="6" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-12.7" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="6" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="6" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="7" PinName="7" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-15.24" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="7" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="7" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="8" PinName="8" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-17.78" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="8" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="8" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="9" PinName="9" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-20.32" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="9" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="9" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="10" PinName="10" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-22.86" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="10" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="10" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="11" PinName="11" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-25.4" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="11" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="11" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="12" PinName="12" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-27.94" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="12" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="12" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="13" PinName="13" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-30.48" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="13" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="13" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="14" PinName="14" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-33.02" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="14" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="14" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="15" PinName="15" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-35.56" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="15" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="15" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="16" PinName="16" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-38.1" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="16" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="16" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="17" PinName="17" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-40.64" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="17" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="17" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="18" PinName="18" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-43.18" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="18" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="18" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="19" PinName="19" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-45.72" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="19" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="19" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="20" PinName="20" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-48.26" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="20" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="20" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="21" PinName="21" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-50.8" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="21" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="21" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="22" PinName="22" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-53.34" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="22" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="22" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="23" PinName="23" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-55.88" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="23" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="23" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="24" PinName="24" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-58.42" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="24" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="24" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="25" PinName="25" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-60.96" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="25" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="25" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="26" PinName="26" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-63.5" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="26" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="26" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="27" PinName="27" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-66.04" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="27" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="27" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="28" PinName="28" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-68.58" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="28" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="28" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="29" PinName="29" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-71.12" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="29" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="29" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="30" PinName="30" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-73.66" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="30" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="30" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="31" PinName="31" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-76.2" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="31" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="31" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="32" PinName="32" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-78.74" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="32" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="32" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="33" PinName="33" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Right" LibPin="" LocationX="5.08" LocationY="-81.28" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="0.762" OriginY="0" Value="33" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Right" Rotation="0" Mirror="NONE" OriginX="-1.524" OriginY="0.508" Value="33" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="-5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="-5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="34" PinName="34" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="0" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="34" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="34" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="35" PinName="35" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-2.54" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="35" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="35" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="36" PinName="36" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-5.08" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="36" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="36" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="37" PinName="37" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-7.62" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="37" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="37" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="38" PinName="38" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-10.16" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="38" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="38" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="39" PinName="39" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-12.7" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="39" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="39" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="40" PinName="40" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-15.24" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="40" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="40" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="41" PinName="41" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-17.78" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="41" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="41" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="42" PinName="42" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-20.32" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="42" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="42" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="43" PinName="43" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-22.86" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="43" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="43" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="44" PinName="44" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-25.4" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="44" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="44" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="45" PinName="45" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-27.94" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="45" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="45" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="46" PinName="46" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-30.48" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="46" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="46" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="47" PinName="47" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-33.02" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="47" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="47" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="48" PinName="48" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-35.56" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="48" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="48" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="49" PinName="49" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-38.1" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="49" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="49" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="50" PinName="50" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-40.64" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="50" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="50" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="51" PinName="51" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-43.18" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="51" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="51" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="52" PinName="52" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-45.72" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="52" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="52" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="53" PinName="53" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-48.26" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="53" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="53" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="54" PinName="54" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-50.8" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="54" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="54" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="55" PinName="55" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-53.34" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="55" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="55" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="56" PinName="56" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-55.88" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="56" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="56" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="57" PinName="57" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-58.42" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="57" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="57" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="58" PinName="58" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-60.96" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="58" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="58" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="59" PinName="59" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-63.5" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="59" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="59" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="60" PinName="60" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-66.04" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="60" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="60" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="61" PinName="MP1" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-68.58" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP1" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP1" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="62" PinName="MP2" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-71.12" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP2" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP2" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="63" PinName="MP3" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-73.66" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP3" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP3" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="64" PinName="MP4" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-76.2" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP4" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP4" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="65" PinName="MP5" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-78.74" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP5" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP5" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+            <PartitionPin PinNo="66" PinName="MP6" Flag="true" NameTextHeight="1" NameTextJustify="Lower-Left" LibPin="" LocationX="20.32" LocationY="-81.28" Rotation="0">
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[SIGNALNAME]" LibFontID="0" Justify="Middle-Right" Rotation="0" Mirror="NONE" OriginX="-0.762" OriginY="0" Value="MP6" Visible="true" />
+              <Draw xsi:type="D_PropertyTextType" AttributeName="[PINNAME]" LibFontID="0" Justify="Lower-Left" Rotation="0" Mirror="NONE" OriginX="1.524" OriginY="0.508" Value="MP6" Visible="true" />
+              <Draw xsi:type="D_PinPointType" Type="1" Size="0.3" OriginX="5.08" OriginY="0" />
+              <Draw xsi:type="D_LineType" StartX="0" StartY="0" EndX="5.08" EndY="0" LineWidth="0.1" />
+            </PartitionPin>
+          </PartitionPins>
+          <SymbolBodyShape>
+            <Draw xsi:type="D_LineType" StartX="5.08" StartY="2.54" EndX="20.32" EndY="2.54" LineWidth="0.254" />
+            <Draw xsi:type="D_LineType" StartX="20.32" StartY="-83.82" EndX="20.32" EndY="2.54" LineWidth="0.254" />
+            <Draw xsi:type="D_LineType" StartX="20.32" StartY="-83.82" EndX="5.08" EndY="-83.82" LineWidth="0.254" />
+            <Draw xsi:type="D_LineType" StartX="5.08" StartY="2.54" EndX="5.08" EndY="-83.82" LineWidth="0.254" />
+            <Draw xsi:type="D_PropertyTextType" AttributeName="[REF_DES]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="21.59" OriginY="7.62" Value="Ref_Des" Visible="true" />
+            <Draw xsi:type="D_PropertyTextType" AttributeName="[PART_INF]" LibFontID="0" Justify="Middle-Left" Rotation="0" Mirror="NONE" OriginX="21.59" OriginY="5.08" Value="216700-0609" Visible="true" />
+          </SymbolBodyShape>
+        </Partition>
+      </Symbol>
+    </Symbols>
+  </LogicSymbol>
+</UPFs>

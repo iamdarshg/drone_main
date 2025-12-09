@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32WL33KBV6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=2.1
+Released=2024-02-07 12:12:16
+Downloaded=2025-11-12 17:08:15
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IS25LP040E_JYLE_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Integrated Silicon Solution Inc.", "IS25LP040E-JYLE-TR" (!) = "", "SON50P300X200X60-9N", "Small Outline No-lead", "870-IS25LP040EJYLETR", "https://www.mouser.co.uk/ProductDetail/ISSI/IS25LP040E-JYLE-TR?qs=eP2BKZSCXI5j9mdUcQ6FYg%3D%3D", "", "", "ff", "https://www.mouser.co.uk/datasheet/2/198/25LP_WP040E_020E_010E_512E_025E-1903841.pdf", "0.6 mm"
+END_PART
+
+END.

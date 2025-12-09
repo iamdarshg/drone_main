@@ -1,0 +1,9 @@
+Manufacturer=RASPBERRY-PI
+PartNumber=SC0914(13)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=57
+Version=3.2
+Released=2022-11-15 09:57:42
+Downloaded=2025-11-12 17:33:33
+3D=Y

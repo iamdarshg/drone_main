@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=216700-0609
+PartCategory=Connector
+PackageCategory=Other
+PinCount=66
+Version=1.4
+Released=2024-02-17 07:45:04
+Downloaded=2025-11-11 14:13:01
+3D=Y

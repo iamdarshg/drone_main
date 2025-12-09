@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=NX3DV221TKX
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=11
+Version=1.1
+Released=2020-10-22 11:06:27
+Downloaded=2025-11-13 10:32:40
+3D=Y

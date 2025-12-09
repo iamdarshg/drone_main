@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=MM8030-2610RK0
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.5
+Released=2023-01-21 13:05:17
+Downloaded=2025-11-11 14:43:34
+3D=Y

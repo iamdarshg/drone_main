@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SC0914_13_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RASPBERRY-PI", "SC0914(13)" (!) = "", "SC091413", "Other", "358-SC091413", "https://www.mouser.co.uk/ProductDetail/Raspberry-Pi/SC091413?qs=T%252BzbugeAwjhr%252BUbBr3TJcw%3D%3D", "", "", "ARM Cortex-M0+ - Microcontroller IC 32-Bit Dual-Core 133MHz External Program Memory 56-QFN (7x7)", "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf", "0.9 mm"
+END_PART
+
+END.
