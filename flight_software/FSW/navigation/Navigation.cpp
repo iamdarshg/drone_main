@@ -11,7 +11,7 @@ namespace Navigation {
     Navigation(
         const char *const compName
     ) :
-      Fw::ActiveComponentBase(compName)
+      NavigationComponentBase(compName)
   {
 
   }
@@ -21,7 +21,7 @@ namespace Navigation {
         const NATIVE_INT_TYPE instance
     )
   {
-    Fw::ActiveComponentBase::init(instance);
+    NavigationComponentBase::init(instance);
   }
 
   Navigation ::
@@ -40,18 +40,55 @@ namespace Navigation {
         Fw::Gps &gps
     )
   {
-    // TODO: Implement navigation logic
-    // TODO: Output guidance data
+    // TODO: Implement navigation logic to switch waypoints
+    if (waypoints.size() > 0) {
+        Fw::Guidance guidance;
+        guidance.setlatitude(waypoints[0].getlatitude());
+        guidance.setlongitude(waypoints[0].getlongitude());
+        guidance.setaltitude(waypoints[0].getaltitude());
+        this->guidanceOut_out(0, guidance);
+    }
+  }
+
+  // ----------------------------------------------------------------------
+  // Command handler implementations
+  // ----------------------------------------------------------------------
+
+  void Navigation ::
+    ADD_WAYPOINT_cmdHandler(
+        FwOpcodeType opCode,
+        U32 cmdSeq,
+        F64 latitude,
+        F64 longitude,
+        F32 altitude
+    )
+  {
+    Fw::Gps waypoint;
+    waypoint.setlatitude(latitude);
+    waypoint.setlongitude(longitude);
+    waypoint.setaltitude(altitude);
+    waypoints.push_back(waypoint);
+    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
   }
 
   void Navigation ::
-    cmdIn_handler(
-        NATIVE_INT_TYPE portNum,
+    CLEAR_WAYPOINTS_cmdHandler(
         FwOpcodeType opCode,
         U32 cmdSeq
     )
   {
-    // TODO: Implement waypoint management
+    waypoints.clear();
+    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
+  }
+
+  void Navigation ::
+    LIST_WAYPOINTS_cmdHandler(
+        FwOpcodeType opCode,
+        U32 cmdSeq
+    )
+  {
+    // TODO: Implement waypoint listing
+    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
   }
 
 } // end namespace Navigation

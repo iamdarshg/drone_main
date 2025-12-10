@@ -11,7 +11,7 @@ namespace Sensors {
     Neo6m(
         const char *const compName
     ) :
-      Fw::ActiveComponentBase(compName)
+      Neo6mComponentBase(compName)
   {
 
   }
@@ -21,7 +21,7 @@ namespace Sensors {
         const NATIVE_INT_TYPE instance
     )
   {
-    Fw::ActiveComponentBase::init(instance);
+    Neo6mComponentBase::init(instance);
   }
 
   Neo6m ::
@@ -41,7 +41,22 @@ namespace Sensors {
     )
   {
     // TODO: Read GPS data from the sensor
-    // TODO: Output GPS data
+
+    // Placeholder dummy data
+    Fw::Gps gps_data;
+    gps_data.setlatitude(34.0522);
+    gps_data.setlongitude(-118.2437);
+    gps_data.setaltitude(71.0);
+    gps_data.setsatellites(8);
+
+    // Output GPS data
+    this->gpsOut_out(0, gps_data);
+
+    // Telemetry
+    this->tlmWrite_Latitude(34.0522);
+    this->tlmWrite_Longitude(-118.2437);
+    this->tlmWrite_Altitude(71.0);
+    this->tlmWrite_Satellites(8);
   }
 
 } // end namespace Sensors

@@ -11,7 +11,7 @@ namespace Control {
     Mixer(
         const char *const compName
     ) :
-      Fw::PassiveComponentBase(compName)
+      MixerComponentBase(compName)
   {
 
   }
@@ -21,7 +21,7 @@ namespace Control {
         const NATIVE_INT_TYPE instance
     )
   {
-    Fw::PassiveComponentBase::init(instance);
+    MixerComponentBase::init(instance);
   }
 
   Mixer ::
@@ -40,7 +40,22 @@ namespace Control {
         Fw::Actuator &actuator
     )
   {
-    // TODO: Implement mixer logic
+    F32 roll = actuator.getroll();
+    F32 pitch = actuator.getpitch();
+    F32 yaw = actuator.getyaw();
+    F32 thrust = actuator.getthrust();
+
+    // Quadcopter X configuration mixer
+    F32 motor1 = thrust - roll - pitch + yaw;
+    F32 motor2 = thrust - roll + pitch - yaw;
+    F32 motor3 = thrust + roll + pitch + yaw;
+    F32 motor4 = thrust + roll - pitch - yaw;
+
+    // Output motor speeds
+    this->motor1Out_out(0, motor1);
+    this->motor2Out_out(0, motor2);
+    this->motor3Out_out(0, motor3);
+    this->motor4Out_out(0, motor4);
   }
 
 } // end namespace Control
