@@ -1,4 +1,4 @@
-#include <flight_software/FSW/sensors/icp101xx/Icp101xx.hpp>
+#include <flight_software/FSW/sensors/kx122/Kx122.hpp>
 #include <Fw/Types/BasicTypes.hpp>
 
 namespace Sensors {
@@ -7,25 +7,25 @@ namespace Sensors {
   // Construction, initialization, and destruction
   // ----------------------------------------------------------------------
 
-  Icp101xx ::
-    Icp101xx(
+  Kx122 ::
+    Kx122(
         const char *const compName
     ) :
-      Icp101xxComponentBase(compName)
+      Kx122ComponentBase(compName)
   {
 
   }
 
-  void Icp101xx ::
+  void Kx122 ::
     init(
         const NATIVE_INT_TYPE instance
     )
   {
-    Icp101xxComponentBase::init(instance);
+    Kx122ComponentBase::init(instance);
   }
 
-  Icp101xx ::
-    ~Icp101xx()
+  Kx122 ::
+    ~Kx122()
   {
 
   }
@@ -34,27 +34,27 @@ namespace Sensors {
   // Handler implementations for user-defined typed input ports
   // ----------------------------------------------------------------------
 
-  void Icp101xx ::
+  void Kx122 ::
     schedIn_handler(
         NATIVE_INT_TYPE portNum,
         NATIVE_UINT_TYPE context
     )
   {
-    // TODO: Read pressure and temperature data from the sensor
+    // TODO: Read accelerometer data from the sensor
 
     // Placeholder dummy data
-    Fw::Pressure pressure_data;
-    pressure_data.setvalue(1013.25);
-    Fw::Temperature temp_data;
-    temp_data.setvalue(25.0);
+    Fw::Accelerometer accel_data;
+    accel_data.setx(0.1);
+    accel_data.sety(0.2);
+    accel_data.setz(9.8);
 
-    // Output pressure and temperature data
-    this->pressureOut_out(0, pressure_data);
-    this->tempOut_out(0, temp_data);
+    // Output accelerometer data
+    this->accelOut_out(0, accel_data);
 
     // Telemetry
-    this->tlmWrite_Pressure(1013.25);
-    this->tlmWrite_Temperature(25.0);
+    this->tlmWrite_AccelX(0.1);
+    this->tlmWrite_AccelY(0.2);
+    this->tlmWrite_AccelZ(9.8);
   }
 
 } // end namespace Sensors

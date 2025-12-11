@@ -1,12 +1,26 @@
-# Prerequisites
-*.d
+# F' build directories
+build-*/
+bin/
+lib/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Other generated files
+*.log
+*.bak
+*.orig
+*.patch
+*.rej
+*~
+*.swp
 
+# KiCad backup files
+*-bak.kicad_pcb
+*-bak.kicad_sch
+*-bak.kicad_pro
+*-bak.kicad_prl
+*-bak.kicad_pro
+*-bak.kicad_sch
+*-bak.kicad_pcb
+fp-info-cache
 # Linker output
 *.ilk
 *.map
@@ -50,3 +64,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+.vscode/
+.__pycache__/
+*.pyc
+temp*

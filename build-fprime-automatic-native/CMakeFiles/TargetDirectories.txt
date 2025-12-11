@@ -1,0 +1,2 @@
+/app/build-fprime-automatic-native/CMakeFiles/edit_cache.dir
+/app/build-fprime-automatic-native/CMakeFiles/rebuild_cache.dir

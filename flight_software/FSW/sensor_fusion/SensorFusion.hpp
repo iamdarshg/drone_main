@@ -9,8 +9,20 @@
 #include <Fw/Types/Pressure.hpp>
 #include <Fw/Types/Quaternion.hpp>
 #include <Fw/Types/Gps.hpp>
+#include <kalman/ekf.hpp>
 
 namespace FSW {
+
+  // State vector
+  typedef Kalman::Vector<10> State;
+  // Control vector
+  typedef Kalman::Vector<6> Control;
+  // Measurement vector for IMU
+  typedef Kalman::Vector<6> ImuMeasurement;
+  // Measurement vector for GPS
+  typedef Kalman::Vector<3> GpsMeasurement;
+  // Measurement vector for Barometer
+  typedef Kalman::Vector<1> BaroMeasurement;
 
   class SensorFusion : public Fw::ActiveComponentBase {
     public:
@@ -74,11 +86,14 @@ namespace FSW {
         //! The fused attitude data
         Fw::Quaternion m_attitude;
 
-        //! EKF state vector
-        // TODO: Define the EKF state vector
+        //! EKF
+        Kalman::EKF<State, Control, ImuMeasurement, GpsMeasurement, BaroMeasurement> ekf;
 
-        //! EKF covariance matrix
-        // TODO: Define the EKF covariance matrix
+        //! System model
+        // TODO: Implement the system model
+
+        //! Measurement models
+        // TODO: Implement the measurement models
   };
 
 } // end namespace FSW

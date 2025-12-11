@@ -1,0 +1,6 @@
+[submodule "flight_software/FSW/lib/kalman"]
+	path = flight_software/FSW/lib/kalman
+	url = https://github.com/mherb/kalman
+[submodule "flight_software/FSW/lib/eigen"]
+	path = flight_software/FSW/lib/eigen
+	url = https://github.com/PX4/eigen

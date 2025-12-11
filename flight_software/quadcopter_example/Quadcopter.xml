@@ -32,6 +32,10 @@
     type="Sensors::Neo6m"
   />
   <instance
+    name="kx122"
+    type="Sensors::Kx122"
+  />
+  <instance
     name="sensor_fusion"
     type="FSW::SensorFusion"
   />
@@ -68,32 +72,30 @@
     type="Navigation::Navigation"
   />
   <connections>
-    <!-- Connect HAL to sensors -->
-    <connection name="imu_i2c" source="i2c.i2c" target="imu.i2c"/>
-    <connection name="baro_i2c" source="i2c.i2c" target="baro.i2c"/>
-    <connection name="gps_uart" source="uart.uart" target="gps.uart"/>
+    <!-- HAL Connections -->
+    <connection name="i2c_imu" source="i2c.i2cWrite" target="imu.i2cWrite" />
+    <connection name="i2c_baro" source="i2c.i2cWrite" target="baro.i2cWrite" />
+    <connection name="i2c_kx122" source="i2c.i2cWrite" target="kx122.i2cWrite" />
+    <connection name="uart_gps" source="uart.uartWrite" target="gps.uartWrite" />
 
-    <!-- Connect sensors to sensor fusion -->
-    <connection name="imu_data" source="imu.imu" target="sensor_fusion.imuIn"/>
-    <connection name="baro_data" source="baro.pressure" target="sensor_fusion.pressureIn"/>
-    <connection name="gps_data" source="gps.gps" target="sensor_fusion.gpsIn"/>
+    <!-- Sensor Connections -->
+    <connection name="imu_fusion" source="imu.imuOut" target="sensor_fusion.imuIn" />
+    <connection name="baro_fusion" source="baro.pressureOut" target="sensor_fusion.pressureIn" />
+    <connection name="kx122_fusion" source="kx122.accelOut" target="sensor_fusion.imuIn2" />
+    <connection name="gps_fusion" source="gps.gpsOut" target="sensor_fusion.gpsIn" />
 
-    <!-- Connect sensor fusion to PID -->
-    <connection name="attitude_data" source="sensor_fusion.attitude" target="pid.attitudeIn"/>
+    <!-- Navigation and Control Connections -->
+    <connection name="fusion_pid" source="sensor_fusion.attitudeOut" target="pid.attitudeIn" />
+    <connection name="nav_pid" source="navigation.guidanceOut" target="pid.setpointIn" />
+    <connection name="pid_mixer" source="pid.actuatorOut" target="mixer.actuatorIn" />
 
-    <!-- Connect navigation to PID -->
-    <connection name="guidance_data" source="navigation.guidance" target="pid.setpointIn"/>
+    <!-- Mixer to Motor Connections -->
+    <connection name="mixer_motor1" source="mixer.motor1Out" target="motor1.speedIn" />
+    <connection name="mixer_motor2" source="mixer.motor2Out" target="motor2.speedIn" />
+    <connection name="mixer_motor3" source="mixer.motor3Out" target="motor3.speedIn" />
+    <connection name="mixer_motor4" source="mixer.motor4Out" target="motor4.speedIn" />
 
-    <!-- Connect PID to Mixer -->
-    <connection name="actuator_data" source="pid.actuator" target="mixer.actuatorIn"/>
-
-    <!-- Connect Mixer to Motors -->
-    <connection name="motor1_speed" source="mixer.motor1" target="motor1.speedIn"/>
-    <connection name="motor2_speed" source="mixer.motor2" target="motor2.speedIn"/>
-    <connection name="motor3_speed" source="mixer.motor3" target="motor3.speedIn"/>
-    <connection name="motor4_speed" source="mixer.motor4" target="motor4.speedIn"/>
-
-    <!-- Connect GPS to navigation -->
-    <connection name="gps_nav_data" source="gps.gps" target="navigation.gpsIn"/>
+    <!-- GPS to Navigation -->
+    <connection name="gps_nav" source="gps.gpsOut" target="navigation.gpsIn" />
   </connections>
 </deployment>
