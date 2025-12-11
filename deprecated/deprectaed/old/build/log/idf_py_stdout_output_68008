@@ -1,0 +1,8 @@
+-- The C compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/msys64/ucrt64/bin/cc.exe
+-- Check for working C compiler: C:/msys64/ucrt64/bin/cc.exe - broken
+-- Configuring incomplete, errors occurred!
+See also "E:/src/drone_main/build/CMakeFiles/CMakeOutput.log".
+See also "E:/src/drone_main/build/CMakeFiles/CMakeError.log".
