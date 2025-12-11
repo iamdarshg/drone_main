@@ -1,0 +1,9 @@
+Manufacturer=Integrated Silicon Solution Inc.
+PartNumber=IS25LP040E-JYLE-TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.2
+Released=2022-05-16 15:41:06
+Downloaded=2025-11-13 10:18:35
+3D=Y

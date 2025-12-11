@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NX3DV221TKX'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "NX3DV221TKX" (!) = "", "SON50P300X300X100-11N", "Small Outline No-lead", "771-NX3DV221TKX", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/NX3DV221TKX?qs=fi7yB2oewZndEq02rwJjiw%3D%3D", "NX3DV221TKX", "https://www.arrow.com/en/products/nx3dv221tkx/nxp-semiconductors?region=nac", "USB Switch ICs High-speed USB 2 switch with enable", "http://www.nxp.com/docs/en/data-sheet/NX3DV221.pdf", "1 mm"
+END_PART
+
+END.

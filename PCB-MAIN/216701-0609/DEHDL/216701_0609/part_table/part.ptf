@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '216701_0609'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "216701-0609" (!) = "", "2167010609", "Other", "538-216701-0609", "https://www.mouser.co.uk/ProductDetail/Molex/216701-0609?qs=ulEaXIWI0c88PbRjAdq80g%3D%3D", "", "", "SlimStack Board-to-Board Plug, 0.35mm Pitch, ACB6+ Series, 0.60mm Mated Height, 1.90mm Mated Width, 60 Circuits", "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/216/216701/2167010609_sd.pdf", "0.59 mm"
+END_PART
+
+END.

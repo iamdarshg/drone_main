@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NCV7344AD10R2G
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=3.1
+Released=2019-10-15 09:19:35
+Downloaded=2025-11-13 10:29:42
+3D=Y

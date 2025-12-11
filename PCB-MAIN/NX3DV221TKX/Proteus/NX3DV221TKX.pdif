@@ -1,0 +1,159 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NX3DV221TKX"
+   (description "USB Switch ICs High-speed USB 2 switch with enable")
+   (family "ANA")
+   (package "SON50P300X300X100-11N")
+   (attribute "Datasheet Link" "http://www.nxp.com/docs/en/data-sheet/NX3DV221.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "NXP")
+   (attribute "Manufacturer_Part_Number" "NX3DV221TKX")
+   (attribute "Mouser Part Number" "771-NX3DV221TKX")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/NX3DV221TKX?qs=fi7yB2oewZndEq02rwJjiw%3D%3D")
+   (attribute "Arrow Part Number" "NX3DV221TKX")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/nx3dv221tkx/nxp-semiconductors?region=nac")
+   (gate
+    (symbol "NX3DV221TKX")
+    (pin "1D+" 1 PS)
+    (pin "1D-" 2 PS)
+    (pin "2D+" 3 PS)
+    (pin "2D-" 4 PS)
+    (pin "GND" 5 PS)
+    (pin "EP" 11 PS)
+    (pin "VCC" 10 PS)
+    (pin "S" 9 PS)
+    (pin "D+" 8 PS)
+    (pin "D-" 7 PS)
+    (pin "$OE$" 6 PS)
+   )
+  )
+  (symbol "NX3DV221TKX"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -900) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SON50P300X300X100-11N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.125 1.8)
+      (pt 2.125 1.8)
+      (pt 2.125 -1.8)
+      (pt -2.125 -1.8)
+      (pt -2.125 1.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 0.75)
+      (pt -0.75 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -1.75 1.65) (pt -2 1.65)
+     )
+    )
+   )
+   (leg 1 (pt -1.45 1) (padstack 0))
+   (leg 2 (pt -1.45 0.5) (padstack 0))
+   (leg 3 (pt -1.45 0) (padstack 0))
+   (leg 4 (pt -1.45 -0.5) (padstack 0))
+   (leg 5 (pt -1.45 -1) (padstack 0))
+   (leg 6 (pt 1.45 -1) (padstack 0))
+   (leg 7 (pt 1.45 -0.5) (padstack 0))
+   (leg 8 (pt 1.45 0) (padstack 0))
+   (leg 9 (pt 1.45 0.5) (padstack 0))
+   (leg 10 (pt 1.45 1) (padstack 0))
+   (leg 11 (pt 0 0) (padstack 11))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.3 0.85 0 0 0))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 1.7 2.5 0 0 90))
+   )
+   (model "NX3DV221TKX.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

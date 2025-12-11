@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX3DV221TKX
+D USB Switch ICs High-speed USB 2 switch with enable
+K
+F http://www.nxp.com/docs/en/data-sheet/NX3DV221.pdf
+$ENDCMP
+#
+#End Doc Library

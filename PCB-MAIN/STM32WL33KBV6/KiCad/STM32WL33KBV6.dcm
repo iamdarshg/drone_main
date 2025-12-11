@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32WL33KBV6
+D Sub-GHz Wireless Microcontrollers. Single-core Arm Cortex-M0+ @64 MHz with 128 Kbytes of Flash memory, 32 Kbytes of SRAM.
+K
+F https://www.st.com/resource/en/datasheet/stm32wl33c8.pdf
+$ENDCMP
+#
+#End Doc Library

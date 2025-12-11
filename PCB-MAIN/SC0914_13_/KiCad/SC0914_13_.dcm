@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC0914_13_
+D ARM Cortex-M0+ - Microcontroller IC 32-Bit Dual-Core 133MHz External Program Memory 56-QFN (7x7)
+K
+F https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

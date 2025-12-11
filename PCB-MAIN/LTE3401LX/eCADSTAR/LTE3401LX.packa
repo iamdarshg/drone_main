@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LTE3401LX"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-15-07:32:44)
+    (mountForm default
+        (footprintRef "LTE3401LX")
+        (spec "System")
+    )
+)

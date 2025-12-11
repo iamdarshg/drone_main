@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MM8030-2610RK0
+D 1 Inner bore SWG Board Edge 0.45mm 11GHz 50 1.35mm SMD RF Connectors / Coaxial Connectors ROHS
+K
+F https://datasheet.lcsc.com/lcsc/1811061528_Murata-Electronics-MM8030-2610RK0_C91632.pdf
+$ENDCMP
+#
+#End Doc Library

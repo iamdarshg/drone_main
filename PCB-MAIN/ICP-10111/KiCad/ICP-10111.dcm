@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICP-10111
+D Board Mount Pressure Sensors High Accuracy, Low Power, Barometric Pressure and Temperature Sensor IC
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/pressure/capacitive-pressure/data_sheet/ds-000186-icp-101xx.pdf
+$ENDCMP
+#
+#End Doc Library

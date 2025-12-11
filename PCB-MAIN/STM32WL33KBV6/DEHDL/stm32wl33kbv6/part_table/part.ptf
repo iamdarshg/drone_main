@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32WL33KBV6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32WL33KBV6" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "", "", "", "", "Sub-GHz Wireless Microcontrollers. Single-core Arm Cortex-M0+ @64 MHz with 128 Kbytes of Flash memory, 32 Kbytes of SRAM.", "https://www.st.com/resource/en/datasheet/stm32wl33c8.pdf", "1 mm"
+END_PART
+
+END.
